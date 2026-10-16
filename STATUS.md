@@ -17,11 +17,11 @@ override), xtb in `../envs/xtb`. Package caches: `UV_CACHE_DIR=../cache/uv`. Do 
 - [x] Fresh xTB goldens generated locally (GFN1/GFN2/GFN-FF, opt/ohess/hess, ALPB, open shell)
 
 ## Queue
-1. [ ] Conformance report vs cclib 1.8.1 and cclib master (`scripts/compare_cclib.py`, running) → `docs/CONFORMANCE_*.md`; fill numbers into README
-2. [ ] Fix any chemout disagreements the report shows where cclib is right
-3. [ ] README: install, 60-second tour, schema table, conformance numbers, limitations
+1. [x] Conformance report vs cclib 1.8.1 and cclib master (`scripts/compare_cclib.py`) → `docs/CONFORMANCE_*.md`
+2. [x] Fix chemout-side disagreements (see CHANGELOG); remaining ones are conventions, listed in the reports
+3. [ ] README numbers via `scripts/readme_conformance.py` (final reruns in progress), commit
 4. [ ] Push to GitHub (`gh repo create bahumanyarg11/chemout --public`), tag v0.1.0; PyPI needs the user
-5. [ ] Later: Psi4 parser (corpus exists in cclib-data), ORCA `.property.txt`/JSON reader, ORCA 6 DOCKER/GOAT/VPT2 modules, Gaussian `freq=hpmodes` high-precision block
+5. [ ] Later: Psi4 parser (corpus exists in cclib-data), ORCA `.property.txt`/JSON reader, ORCA 6 DOCKER/GOAT/VPT2 modules, Gaussian `freq=hpmodes` high-precision block, ONIOM extrapolated energies, cclib issues to file: 1.8.1 IndexError on ORCA 6 (109/115 files), master uses last-iteration SCF energy, master xTB homos=0
 
 ## Log
 - 2026-10-16 10:50 chose this project over MLIP harness (saturated: MLIPAudit, mlipx, MLIP Arena, LAMBench) and IBP reducer (months). cclib master already has ORCA 6 branches; the honest gap is: released cclib (1.8.1) vs master, crash tolerance, typed schema, HDF5/JSON, CLI.

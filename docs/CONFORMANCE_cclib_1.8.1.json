@@ -63,7 +63,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -80,7 +80,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -97,7 +97,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "chemout-only",
+   "scf_energy": "neither",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -114,7 +114,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "chemout-only",
+   "scf_energy": "neither",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -131,7 +131,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -148,7 +148,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -182,7 +182,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -222,7 +222,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "chemout-only",
+   "scf_energy": "neither",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -239,7 +239,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "chemout-only",
+   "scf_energy": "neither",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -256,7 +256,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "chemout-only",
+   "scf_energy": "neither",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -290,7 +290,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "agree",
+   "scf_energy": "disagree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -375,7 +375,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -460,7 +460,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -477,7 +477,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -494,7 +494,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -511,7 +511,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -528,7 +528,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -545,7 +545,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -562,7 +562,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -579,7 +579,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -596,7 +596,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -712,7 +712,7 @@
   "result": {
    "scf_energy": "agree",
    "n_geometries": "disagree",
-   "final_coordinates": "agree",
+   "final_coordinates": "disagree",
    "charge": "agree",
    "multiplicity": "agree",
    "homo_energy": "agree",
@@ -954,7 +954,7 @@
    "charge": "agree",
    "multiplicity": "agree",
    "homo_energy": "agree",
-   "mulliken_charges": "agree",
+   "mulliken_charges": "disagree",
    "vibfreqs": "neither",
    "etenergies": "neither",
    "success_flag": "agree"
@@ -1197,8 +1197,8 @@
    "final_coordinates": "agree",
    "charge": "agree",
    "multiplicity": "agree",
-   "homo_energy": "disagree",
-   "mulliken_charges": "disagree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
    "vibfreqs": "neither",
    "etenergies": "neither",
    "success_flag": "disagree"
@@ -1249,7 +1249,7 @@
    "charge": "agree",
    "multiplicity": "agree",
    "homo_energy": "chemout-only",
-   "mulliken_charges": "disagree",
+   "mulliken_charges": "agree",
    "vibfreqs": "neither",
    "etenergies": "neither",
    "success_flag": "agree"
@@ -1794,7 +1794,7 @@
    "multiplicity": "agree",
    "homo_energy": "agree",
    "mulliken_charges": "agree",
-   "vibfreqs": "disagree",
+   "vibfreqs": "agree",
    "etenergies": "neither",
    "success_flag": "agree"
   }
@@ -1806,7 +1806,7 @@
   "result": {
    "scf_energy": "agree",
    "n_geometries": "agree",
-   "final_coordinates": "disagree",
+   "final_coordinates": "agree",
    "charge": "agree",
    "multiplicity": "agree",
    "homo_energy": "agree",
@@ -1861,8 +1861,8 @@
    "charge": "agree",
    "multiplicity": "agree",
    "homo_energy": "chemout-only",
-   "mulliken_charges": "disagree",
-   "vibfreqs": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "disagree",
    "etenergies": "neither",
    "success_flag": "agree"
   }
@@ -1991,7 +1991,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "disagree",
    "charge": "cclib-only",
@@ -2712,7 +2712,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "cclib-only",
    "final_coordinates": "cclib-only",
    "charge": "agree",
@@ -2729,7 +2729,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -2763,7 +2763,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "cclib-only",
    "final_coordinates": "cclib-only",
    "charge": "agree",
@@ -2780,7 +2780,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -2803,7 +2803,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "cclib-only",
    "final_coordinates": "cclib-only",
    "charge": "agree",
@@ -2826,7 +2826,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -2843,7 +2843,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -2860,7 +2860,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "cclib-only",
    "final_coordinates": "cclib-only",
    "charge": "agree",

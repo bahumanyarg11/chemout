@@ -54,9 +54,33 @@ files and compares final SCF energy, number of geometries, final coordinates, ch
 HOMO energy, Mulliken charges, vibrational frequencies, excitation energies and the success flag.
 Results, with every disagreement listed by file, are in
 [docs/CONFORMANCE_cclib_1.8.1.md](docs/CONFORMANCE_cclib_1.8.1.md) and
-[docs/CONFORMANCE_cclib_master.md](docs/CONFORMANCE_cclib_master.md).
+[docs/CONFORMANCE_cclib_master.md](docs/CONFORMANCE_cclib_master.md). The definitions behind
+the remaining differences are in [docs/CONVENTIONS.md](docs/CONVENTIONS.md).
 
 <!-- CONFORMANCE_SUMMARY -->
+| | cclib 1.8.1 (latest release) | cclib master (2.0 dev) |
+|---|---|---|
+| files tried | 246 | 246 |
+| **cclib raised / returned nothing** | **119** | **12** |
+| chemout returned a record | 246 | 246 |
+
+Where both produced a record, per quantity (agree / differ by < 1e-4 Eh / disagree / only one side has it):
+
+| quantity | cclib 1.8.1 (latest release) | cclib master (2.0 dev) |
+|---|---|---|
+| scf_energy | 106 / 0 / 7 / 2 | 181 / 1 / 34 / 2 |
+| n_geometries | 105 / 0 / 13 / 6 | 207 / 0 / 17 / 6 |
+| final_coordinates | 113 / 0 / 5 / 6 | 219 / 0 / 5 / 6 |
+| charge | 124 / 0 / 0 / 3 | 231 / 0 / 0 / 3 |
+| multiplicity | 113 / 0 / 0 / 12 | 216 / 0 / 0 / 16 |
+| homo_energy | 99 / 0 / 9 / 10 | 198 / 0 / 12 / 14 |
+| mulliken_charges | 116 / 0 / 1 / 4 | 216 / 0 / 1 / 4 |
+| vibfreqs | 20 / 0 / 3 / 0 | 54 / 0 / 3 / 0 |
+| etenergies | 10 / 0 / 0 / 2 | 24 / 0 / 2 / 3 |
+| success_flag | 125 / 0 / 2 / 0 | 228 / 0 / 0 / 6 |
+
+Corpus: cclib-data ORCA 4.2–6.1, Gaussian 09/16, xTB; 109 public ORCA 6.0–6.1 outputs from GitHub; 9 xTB runs generated here. Every disagreement is listed by file in the linked reports, with the convention behind it where one exists (e.g. cclib master reports the last SCF-iteration energy rather than ORCA's converged `Total Energy`; cclib keeps xTB's six zero-frequency modes; chemout drops Gaussian dummy atoms but keeps ghost atoms).
+<!-- /CONFORMANCE_SUMMARY -->
 
 ## What is parsed
 
