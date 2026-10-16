@@ -21,7 +21,7 @@ override), xtb in `../envs/xtb`. Package caches: `UV_CACHE_DIR=../cache/uv`. Do 
 2. [x] Fix chemout-side disagreements (see CHANGELOG); remaining ones are conventions, listed in the reports
 3. [x] README numbers via `scripts/readme_conformance.py`, commit
 4. [x] Pushed to https://github.com/bahumanyarg11/chemout (public), tag v0.1.0. PyPI upload needs the user's token (`uv publish dist/*`)
-5. [ ] Later: Psi4 parser (corpus exists in cclib-data), ORCA `.property.txt`/JSON reader, ORCA 6 DOCKER/GOAT/VPT2 modules, Gaussian `freq=hpmodes` high-precision block, ONIOM extrapolated energies, cclib issues to file: 1.8.1 IndexError on ORCA 6 (109/115 files), master xTB homos=0 (fix branch open), master returns an empty record for ORCA 6 UHF opt (1618.out); the earlier 'last-iteration SCF energy' claim was wrong: it was cclib's CODATA-2010 Hartree->eV constant
+5. [ ] Later: Psi4 parser (corpus exists in cclib-data), ORCA `.property.txt`/JSON reader, ORCA 6 DOCKER/GOAT/VPT2 modules, Gaussian `freq=hpmodes` high-precision block, ONIOM extrapolated energies, cclib issues to file: 1.8.1 IndexError on ORCA 6 (109/115 files), filed as cclib#1934+PR#1936 (xTB homos/moenergies) and cclib#1935+PR#1937 (ORCA 6 WARNINGS), release data on cclib#1832; the earlier 'last-iteration SCF energy' claim was wrong: it was cclib's CODATA-2010 Hartree->eV constant
 
 ## Log
 - 2026-10-16 10:50 chose this project over MLIP harness (saturated: MLIPAudit, mlipx, MLIP Arena, LAMBench) and IBP reducer (months). cclib master already has ORCA 6 branches; the honest gap is: released cclib (1.8.1) vs master, crash tolerance, typed schema, HDF5/JSON, CLI.
