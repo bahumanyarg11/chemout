@@ -242,8 +242,7 @@ def main() -> int:
     lines += [
         "",
         "Counts are over the files where cclib produced a record. 'differ < 1e-4 Eh' marks energy differences",
-        "below 1e-4 Hartree, i.e. one implementation reporting the last SCF-iteration energy and the other the",
-        "converged total: not a parsing error on either side.",
+        "below 1e-4 Hartree (unit-constant or convergence-level effects, not a parsing error on either side).",
         "",
         "## cclib failures",
         "",

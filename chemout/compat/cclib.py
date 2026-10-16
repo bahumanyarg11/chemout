@@ -12,8 +12,11 @@ from typing import Any
 
 import numpy as np
 
-from ..schema import HARTREE_TO_EV, Calculation
+from ..schema import Calculation
 
+# cclib converts with the CODATA 2010 value; use the same constant so values agree with cclib exactly.
+# (chemout.schema.HARTREE_TO_EV is CODATA 2018.)
+HARTREE_TO_EV = 27.21138505
 _EV_TO_CM = 8065.543937
 
 

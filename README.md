@@ -79,7 +79,7 @@ Where both produced a record, per quantity (agree / differ by < 1e-4 Eh / disagr
 | etenergies | 10 / 0 / 0 / 2 | 24 / 0 / 2 / 3 |
 | success_flag | 125 / 0 / 2 / 0 | 228 / 0 / 0 / 6 |
 
-Corpus: cclib-data ORCA 4.2–6.1, Gaussian 09/16, xTB; 109 public ORCA 6.0–6.1 outputs from GitHub; 9 xTB runs generated here. Every disagreement is listed by file in the linked reports, with the convention behind it where one exists (e.g. cclib master reports the last SCF-iteration energy rather than ORCA's converged `Total Energy`; cclib keeps xTB's six zero-frequency modes; chemout drops Gaussian dummy atoms but keeps ghost atoms).
+Corpus: cclib-data ORCA 4.2–6.1, Gaussian 09/16, xTB; 109 public ORCA 6.0–6.1 outputs from GitHub; 9 xTB runs generated here. Every disagreement is listed by file in the linked reports, with the convention behind it where one exists (e.g. cclib keeps xTB's six zero-frequency modes; chemout drops Gaussian dummy atoms but keeps ghost atoms).
 <!-- /CONFORMANCE_SUMMARY -->
 
 ## What is parsed

@@ -65,7 +65,7 @@ def main() -> None:
     lines.append(
         "Corpus: cclib-data ORCA 4.2–6.1, Gaussian 09/16, xTB; 109 public ORCA 6.0–6.1 outputs from GitHub; 9 xTB runs generated "
         "here. Every disagreement is listed by file in the linked reports, with the convention behind it where one exists "
-        "(e.g. cclib master reports the last SCF-iteration energy rather than ORCA's converged `Total Energy`; cclib keeps "
+        "(e.g. cclib keeps "
         "xTB's six zero-frequency modes; chemout drops Gaussian dummy atoms but keeps ghost atoms)."
     )
     block = "<!-- CONFORMANCE_SUMMARY -->\n" + "\n".join(lines) + "\n<!-- /CONFORMANCE_SUMMARY -->"

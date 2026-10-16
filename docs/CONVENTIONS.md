@@ -26,9 +26,11 @@ post-HF correlation; Gaussian post-HF totals when present). `energies.dispersion
 **cclib:** `scfenergies` is SCF-level: ORCA `Total Energy` + the printed `Dispersion correction`
 (ORCA prints the D3/D4 term in its own `DFT DISPERSION CORRECTION` section and leaves it out of
 `Total Energy`; `FINAL SINGLE POINT ENERGY` = `Total Energy` + dispersion + gCP); xTB per-step
-`* total energy`. cclib master takes the *last SCF-iteration* energy when the `TOTAL SCF ENERGY`
-block exists but is parsed from the table, which differs from the converged total by up to 1e-5 Eh —
-those cases are the "differ < 1e-4 Eh" column. The `chemout.compat.cclib` shim follows cclib's
+`* total energy`. cclib converts Hartree to eV with 27.21138505 (CODATA 2010) whereas chemout uses
+27.211386245988 (CODATA 2018); the 4.4e-8 relative difference reaches 1e-5 Eh for a 200-Eh molecule and
+6e-4 Eh for a 13000-Eh one, which is what the "differ < 1e-4 Eh" column and a few large-molecule
+"disagreements" were. The `chemout.compat.cclib` shim therefore uses cclib's constant, so the two agree
+exactly after conversion; `chemout.schema` keeps CODATA 2018. The shim follows cclib's
 definitions. Composite methods (`r2SCAN-3c`, `PBEh-3c`, `wB97X-3c`) and functionals with built-in
 dispersion (`wB97X-D3`, `wB97M-D3BJ`) also print a dispersion section; chemout keeps it in
 `energies.dispersion` and `scf_cycles[i].dispersion`.
