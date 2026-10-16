@@ -24,11 +24,14 @@ cclib master (`1038.out`: 6 vs 9 "atoms").
 best total energy in the file (ORCA `FINAL SINGLE POINT ENERGY`, which includes dispersion and any
 post-HF correlation; Gaussian post-HF totals when present). `energies.dispersion` is kept separately.
 **cclib:** `scfenergies` is SCF-level: ORCA `Total Energy` + the printed `Dispersion correction`
-(added unconditionally, although ORCA ≥ 5 already includes it in `Total Energy`); xTB per-step
+(ORCA prints the D3/D4 term in its own `DFT DISPERSION CORRECTION` section and leaves it out of
+`Total Energy`; `FINAL SINGLE POINT ENERGY` = `Total Energy` + dispersion + gCP); xTB per-step
 `* total energy`. cclib master takes the *last SCF-iteration* energy when the `TOTAL SCF ENERGY`
 block exists but is parsed from the table, which differs from the converged total by up to 1e-5 Eh —
 those cases are the "differ < 1e-4 Eh" column. The `chemout.compat.cclib` shim follows cclib's
-definitions (dispersion added only for ORCA < 5).
+definitions. Composite methods (`r2SCAN-3c`, `PBEh-3c`, `wB97X-3c`) and functionals with built-in
+dispersion (`wB97X-D3`, `wB97M-D3BJ`) also print a dispersion section; chemout keeps it in
+`energies.dispersion` and `scf_cycles[i].dispersion`.
 
 ## HOMO (`orbitals.homo`, `orbitals.homo_energy`; cclib `homos`, `moenergies`)
 

@@ -615,6 +615,23 @@ class OrcaParser(Parser):
                     self.calc.energies.dispersion = vals[0]
             lines.next()
 
+    @section(lambda s: s.startswith("Dispersion correction") and len(s.split()) == 3)
+    def _dispersion_line(self, line: str) -> None:
+        # Standalone line closing the DFT DISPERSION CORRECTION section; not part of "Total Energy".
+        vals = floats_in(line)
+        if vals:
+            self.calc.energies.dispersion = vals[0]
+            if self.calc.scf_cycles:
+                self.calc.scf_cycles[-1].dispersion = vals[0]
+        self.lines.next()
+
+    @section(lambda s: s.startswith("gCP correction") and len(s.split()) == 3)
+    def _gcp_line(self, line: str) -> None:
+        vals = floats_in(line)
+        if vals:
+            self.calc.energies.gcp = vals[0]
+        self.lines.next()
+
     @section("Expectation value of <S**2>")
     def _s2(self, line: str) -> None:
         if self.calc.scf_cycles:

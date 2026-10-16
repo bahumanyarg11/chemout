@@ -35,9 +35,8 @@ def to_ccdata_dict(calc: Calculation) -> dict[str, Any]:
         d["atomcoords"] = np.asarray([g.coordinates for g in calc.geometries], dtype=float)
     # cclib's scfenergies: one SCF-level energy per SCF (never a post-HF total).
     #  - Gaussian: "SCF Done" energies.
-    #  - ORCA: the SCF block's "Total Energy" plus the dispersion correction. ORCA < 5 prints the dispersion
-    #    separately and excludes it from "Total Energy"; ORCA >= 5 already includes it, so it is added only for
-    #    the older versions (cclib adds it unconditionally, see docs/CONFORMANCE_*.md).
+    #  - ORCA: the SCF block's "Total Energy" plus the dispersion correction, which every ORCA version prints
+    #    separately and leaves out of "Total Energy" (FINAL SINGLE POINT ENERGY = Total + dispersion + gCP).
     #  - xTB: the "* total energy" of every optimisation step (the SCC energy alone is not a total energy).
     prog = calc.program.name.value
     if prog == "xtb":
@@ -47,9 +46,8 @@ def to_ccdata_dict(calc: Calculation) -> dict[str, Any]:
         if steps:
             d["scfenergies"] = np.asarray(steps) * HARTREE_TO_EV
     else:
-        old_orca = prog == "orca" and (calc.program.version_tuple or (99,))[0] < 5
         scf = [
-            c.energy + (c.dispersion if old_orca and c.dispersion is not None else 0.0)
+            c.energy + (c.dispersion if prog == "orca" and c.dispersion is not None else 0.0)
             for c in calc.scf_cycles
             if c.energy is not None
         ]
