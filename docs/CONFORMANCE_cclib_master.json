@@ -1,0 +1,4052 @@
+[
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA6.0/1618.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "chemout-only",
+   "n_geometries": "chemout-only",
+   "final_coordinates": "chemout-only",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "chemout-only",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA6.0/casscf_beryllium_atom_nosym.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA6.0/casscf_beryllium_atom_sym.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA6.0/commercial_version.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA6.0/ho-h_cas_aDZ_scanSA.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA6.1/1509.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "agree",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/1038.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "disagree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/1177.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "cclib-only",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "agree",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/ADBNA_Me_Mes_MesCz.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/Benzene_opt_etsyms.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/casscf_beryllium_atom_nosym.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/casscf_beryllium_atom_sym.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/dvb_soc.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA5.0/steom_orbs.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "cclib-only",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/947.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/MP2-gradient.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/Trp_polar.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/a_DLPNO.txt",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "cclib-only",
+   "n_geometries": "neither",
+   "final_coordinates": "neither",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/casscf.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "cclib-only",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/casscf_beryllium_atom_nosym.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/casscf_beryllium_atom_sym.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/cope.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_dispersion_bp86_d3zero.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_gopt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_ir.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_nmr.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_raman.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_rocis.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_scan.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_scan_unrelaxed.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_sp.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_sp_un.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/dvb_td.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/ligando-30-SRM1-S_ZINDO.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/long-input.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/longer-input.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/water_ccsd.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/water_ccsd_t.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/water_dlpno_ccsd.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/water_mp2.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/ORCA/ORCA4.2/water_mp3.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/1615.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/Benzene_anion.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/C01_CC.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/Ethane.mp5.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/H3_natcharge.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/Pyridine_opt-eomccsd.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/co_pbe1pbe_631ppGss.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dol-1-pen-5-pen-trip.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_chelp.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_chelpg.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_cm5.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_cm5_hirshfeld.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_hirshfeld.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_hly.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_hlygat.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_mk.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_mk_dipole.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_mk_dipole_atomdipole.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/dvb_mkuff.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/issue1153.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/issue851.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/issue962.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "disagree",
+   "final_coordinates": "disagree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/mp2_avdz_freq_tight.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/naturalspinorbitals_parsing.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "neither",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/output.txt.issue754.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/water.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/water_cation_nbo_opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/water_neutral_nbo_opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian16/water_neutral_nbo_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/1080.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/1504.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/25DMF_HRANH.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/2D-PES-all-converged.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/2D-PES-one-unconverged.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/534.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/BH3CO_fragment_guess.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "chemout-only"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/BH3CO_fragment_guess.pop_minimal.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "disagree",
+   "mulliken_charges": "disagree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "chemout-only"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/BSL_opt_freq_DFT.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/Dahlgren_TS.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/OPT_oniom.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "disagree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/OPT_td_g09.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/Ru2bpyen2_H2_freq3.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/ansaBPFP2_acetylene_ircf_LQA.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "disagree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "chemout-only"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/benzene_HPfreq.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/benzene_excited_states_optimization_issue889.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/benzene_freq.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/di-iodophenyl.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_chelp.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_chelpg.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_gopt_revA.02.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_gopt_unconverged.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_hirshfeld.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_hly.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_hlygat.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_ir_revA.02.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_lowdin.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_mk.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_mk_dipole.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_mk_dipole_atomdipole.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_raman_revA.02.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_scan_revA.02.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_sp_basis_b_gfprint.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_sp_basis_gfinput.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_sp_revA.02.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_sp_terse.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_td_revA.02.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_un_sp_b_revA.02.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/dvb_un_sp_revA.02.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/encaps1.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "chemout-only",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/g_from_issue_756.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "neither",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/guessIndo_modified_ALT.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/irc_point.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "disagree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/issue1150.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "disagree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/issue_460.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "disagree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "chemout-only"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/jos.teunissen.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/oniom_IR_intensity.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "disagree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/relaxed_PES_testCO2.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/relaxed_PES_testH2.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/stopiter_gaussian.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "chemout-only"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/test0200.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/test0237.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/trithiolane_polar.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/Gaussian/Gaussian09/water_gaussian.inp.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "neither",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/xTB/basicXTB6.5.1/1448.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "cclib-only",
+   "multiplicity": "neither",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/xTB/basicXTB6.7.1/1768_sdf.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/cclib-data/xTB/basicXTB6.7.1/1768_xyz.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ChemistryCourses__NPTEL_Computational_Quantum_Chemistry__docker.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "neither",
+   "final_coordinates": "neither",
+   "charge": "chemout-only",
+   "multiplicity": "chemout-only",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/FoleyLab__nbr_data__ccsdpt_meta.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/FoleyLab__nbr_data__ccsdpt_ortho.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/FoleyLab__nbr_data__ccsdpt_para.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/GitNindjapatrick__Quantum_chemistry_ORCA-Simulations__water.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/HabershonLab__cde__pes_orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/JEFF7712__cctop__orca.out",
+  "cclib_ok": false,
+  "cclib_error": "AttributeError: 'ORCA' object has no attribute 'natom'",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Kev-Park__CBE423__n2orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Kev-Park__CBE423__n3orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Konjkov__pycasino__orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/OpenChemistry__avogadrodata__camphor.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/OpenChemistry__avogadrodata__formaldehyde.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/OpenChemistry__avogadrodata__nmr.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/OpenChemistry__avogadrodata__raman.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/PoloTier__PSiNad__orca-QM.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ReactionMechanismGenerator__ARC__neb_res.out",
+  "cclib_ok": false,
+  "cclib_error": "AttributeError: 'ORCA' object has no attribute 'geotargets_names'",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Spin-Chemistry-Labs__radicalpy__NH2_A.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Svatunek-Lab__teaching__H2O.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__adenine_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__biuret_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__cytosine_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__dimethylurea_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__formamide_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__guanine_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__methylurea_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Tovila01__urea-derivate__thiourea_opt_freq.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Xingyao-Wu__Chebyshev-Tree-Tensor-Network-for-Vibrational-Spectra__opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/Xingyao-Wu__Chebyshev-Tree-Tensor-Network-for-Vibrational-Spectra__vib.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "neither",
+   "final_coordinates": "neither",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/adole2008__compchem__watergeoopt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ahmetaltunfatih__LEDAW__mono2.mpi16.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/aligfellow__graphRC__dihedral.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/avcopan__project-cyclopentene-oh-addition__opt.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/avcopan__project-cyclopentene-oh-addition__opt_orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/avcopan__project-cyclopentene-oh-addition__sp_orca.out",
+  "cclib_ok": false,
+  "cclib_error": "AssertionError: ",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/avcopan__project-dimethyl-oxirane-cl-abstraction__opt.log",
+  "cclib_ok": false,
+  "cclib_error": "AttributeError: 'ORCA' object has no attribute 'geotargets_names'",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib-data__1618.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "chemout-only",
+   "n_geometries": "chemout-only",
+   "final_coordinates": "chemout-only",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "chemout-only",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_adc2.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_eom_ccsd.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_ir.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_pno_eom_ccsd.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_raman.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_rocis.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_steom_ccsd.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/cclib__cclib__dvb_steom_dlpno_ccsd.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "agree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/chpc-uofu__chpc-myjobs-templates__cadi.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/chpc-uofu__chpc-myjobs-templates__methane.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/chpc-uofu__chpc-myjobs-templates__water.out",
+  "cclib_ok": false,
+  "cclib_error": "ValueError: could not convert string to float: 'Eh'",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/chpc-uofu__cluster-validation__cadi.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "disagree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/dhwan0112__dhk.github.io__water.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/dydtkddl__DFT_HONOKIOL__DMC.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/dydtkddl__DFT_HONOKIOL__EC.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/dydtkddl__DFT_HONOKIOL__EMC.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/dydtkddl__DFT_HONOKIOL__FEC.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/gentle1999__MolOP__water_mp2.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/geoffreyweal__ORCA_Mechanism_Procedure__output.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/geoffreyweal__viewORCA__output.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/grimme-lab__q-vSZPs__orca.out",
+  "cclib_ok": false,
+  "cclib_error": "ValueError: not enough values to unpack (expected 4, got 1)",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/grimme-lab__q-vSZPs__orca_atom8.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/hbar-team__SPyCCI__water_0_1_orca_BP86_def2-TZVP_vacuum_opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/jhoanlond__QCXMS2__orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/jhoanlond__QCXMS2__orca_atom6.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "disagree",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/jhoanlond__QCXMS2__orca_atom8.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/jhonapontee__methyl-dimer-spin-coupling__caspt2.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "chemout-only",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/jhonapontee__methyl-dimer-spin-coupling__ch3.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/jhonapontee__methyl-dimer-spin-coupling__d3h.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_2.8.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_3.0.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_3.2.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_3.4.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_3.6.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_3.8.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_4.0.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/leonardopagliochini__Energy_Additivity_Evaluation__AR2LD_4.2.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ll23002__Orca__Etanol.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ll23002__Orca__agua.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ll23002__Orca__water.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/lucasandradechem-lab__chg2itp__dft.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/lucasgarayy__Machine-Learned-Interatomic-Potentials-for-Photophysics__orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "chemout-only",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/madsr2d2__comp_chem__BnOH_H2O2.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "neither",
+   "n_geometries": "neither",
+   "final_coordinates": "neither",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/madsr2d2__masterThesis__benzaldehyde_tddft.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/madsr2d2__masterThesis__benzoic_acid_tddft.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/madsr2d2__masterThesis__job.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__h2_frag.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__h3_frag.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__hh-pg_cplx.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__k2_frag.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__kh-pg_cplx.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__pg1_frag.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__r2_frag.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/mersalas__qm_cmd__rh-pg_cplx.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/patonlab__pyDFTD3__ibuprofen_b3lyp_orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/patonlab__pyDFTD3__ibuprofen_pbe_orca.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/patonlab__pyQRC__acetaldehyde.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/patonlab__yadda__ch3_rad.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/patonlab__yadda__propene.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/physicien__spectroplot__FRQ_tungsten_hexacarbonyl_f.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/re-gr__rgmol__CH3Cl.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/rgora__photochemistry__uracil_s0.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/rgora__photochemistry__uracil_s0_vee.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/rgora__photochemistry__uracil_s0_vg.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "disagree",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ushcodex__Vanadium-zeolite-y-dealumination__V-PRC-T1-V03.out",
+  "cclib_ok": false,
+  "cclib_error": "AssertionError: ",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ushcodex__Vanadium-zeolite-y-dealumination__V-TS2-T1-V03.out",
+  "cclib_ok": false,
+  "cclib_error": "AssertionError: ",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ushcodex__Vanadium-zeolite-y-dealumination__irc_backward_opt.out",
+  "cclib_ok": false,
+  "cclib_error": "AssertionError: ",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/ushcodex__Vanadium-zeolite-y-dealumination__irc_forward_opt.out",
+  "cclib_ok": false,
+  "cclib_error": "AssertionError: ",
+  "result": null
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/yamashun95__orca-work__tsopt.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "chemout-only"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/yamashun95__orca-work__wateropt.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/yamashun95__orca-work__waterpcm.log",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/dl/orca6_github/zwang20__honours-data-7__censo.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "agree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "agree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "agree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/acetate_alpb/acetate_alpb.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "cclib-only",
+   "final_coordinates": "cclib-only",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/ethanol_gfn1_opt/ethanol_gfn1_opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "cclib-only",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/ethanol_gfnff_opt/ethanol_gfnff_opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "cclib-only",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "cclib-only",
+   "multiplicity": "neither",
+   "homo_energy": "neither",
+   "mulliken_charges": "neither",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/ethanol_grad/ethanol_grad.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "cclib-only",
+   "final_coordinates": "cclib-only",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/methanol_cation_uhf/methanol_cation_uhf.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "agree",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/water_hess_verbose/g98.out",
+  "cclib_ok": false,
+  "cclib_error": "ccread returned None (unrecognised file)",
+  "result": null
+ },
+ {
+  "file": "tests/data/xtb_generated/water_hess_verbose/water_hess_verbose.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "cclib-only",
+   "final_coordinates": "cclib-only",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "disagree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/water_ohess/g98.out",
+  "cclib_ok": false,
+  "cclib_error": "ccread returned None (unrecognised file)",
+  "result": null
+ },
+ {
+  "file": "tests/data/xtb_generated/water_ohess/water_ohess.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "disagree",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/water_opt/water_opt.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "agree",
+   "final_coordinates": "agree",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ },
+ {
+  "file": "tests/data/xtb_generated/water_sp/water_sp.out",
+  "cclib_ok": true,
+  "cclib_error": null,
+  "result": {
+   "scf_energy": "disagree",
+   "n_geometries": "cclib-only",
+   "final_coordinates": "cclib-only",
+   "charge": "agree",
+   "multiplicity": "chemout-only",
+   "homo_energy": "disagree",
+   "mulliken_charges": "agree",
+   "vibfreqs": "neither",
+   "etenergies": "neither",
+   "success_flag": "agree"
+  }
+ }
+]

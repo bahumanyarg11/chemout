@@ -33,8 +33,13 @@ def to_ccdata_dict(calc: Calculation) -> dict[str, Any]:
         d["nbasis"] = mol.n_basis_functions
     if calc.geometries:
         d["atomcoords"] = np.asarray([g.coordinates for g in calc.geometries], dtype=float)
+    # cclib's scfenergies are one total energy per geometry (ORCA: FINAL SINGLE POINT ENERGY, which includes
+    # the dispersion correction; Gaussian: SCF Done). Prefer the per-geometry energies when they exist.
+    geo = [g.energy for g in calc.geometries if g.energy is not None]
     scf = [c.energy for c in calc.scf_cycles if c.energy is not None]
-    if scf:
+    if geo and len(geo) >= len(scf):
+        d["scfenergies"] = np.asarray(geo) * HARTREE_TO_EV
+    elif scf:
         d["scfenergies"] = np.asarray(scf) * HARTREE_TO_EV
     if calc.energies.mp2 is not None:
         d["mpenergies"] = np.asarray([[calc.energies.mp2 * HARTREE_TO_EV]])

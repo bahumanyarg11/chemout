@@ -163,7 +163,7 @@ def compare(calc_d: dict, cc: dict) -> dict[str, str]:
         "etenergies",
         calc_d["etenergies"].tolist() if calc_d.get("etenergies") is not None else None,
         cc.get("etenergies"),
-        lambda a, b: seq_close(a, b, 1e-5, 2.0),
+        lambda a, b: seq_close(sorted(a), sorted(b), 1e-5, 2.0),
     )
     md = cc.get("metadata") or {}
     verdict(

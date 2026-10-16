@@ -20,10 +20,166 @@
  "error_message": null,
  "excited_states": [
   {
-   "energy_ev": 3.136,
+   "energy_ev": 5.352100284516744,
    "index": 1,
-   "multiplicity": null,
+   "multiplicity": "singlet",
    "oscillator_strength": 0.0056297,
+   "rotatory_strength": null,
+   "spin_squared": null,
+   "symmetry": null,
+   "transition_dipole": null,
+   "transitions": [
+    {
+     "coefficient": 0.563723,
+     "from_orbital": 33,
+     "from_spin": "a",
+     "to_orbital": 35,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.426027,
+     "from_orbital": 34,
+     "from_spin": "a",
+     "to_orbital": 36,
+     "to_spin": "a"
+    }
+   ],
+   "wavelength_nm": 231.7
+  },
+  {
+   "energy_ev": 5.722738647329,
+   "index": 2,
+   "multiplicity": "singlet",
+   "oscillator_strength": 1.16536979,
+   "rotatory_strength": null,
+   "spin_squared": null,
+   "symmetry": null,
+   "transition_dipole": null,
+   "transitions": [
+    {
+     "coefficient": 0.016157,
+     "from_orbital": 32,
+     "from_spin": "a",
+     "to_orbital": 37,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.016653,
+     "from_orbital": 33,
+     "from_spin": "a",
+     "to_orbital": 36,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.933873,
+     "from_orbital": 34,
+     "from_spin": "a",
+     "to_orbital": 35,
+     "to_spin": "a"
+    }
+   ],
+   "wavelength_nm": 216.7
+  },
+  {
+   "energy_ev": 6.224043956875664,
+   "index": 3,
+   "multiplicity": "singlet",
+   "oscillator_strength": 0.0,
+   "rotatory_strength": null,
+   "spin_squared": null,
+   "symmetry": null,
+   "transition_dipole": null,
+   "transitions": [
+    {
+     "coefficient": 0.592376,
+     "from_orbital": 32,
+     "from_spin": "a",
+     "to_orbital": 35,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.40094,
+     "from_orbital": 34,
+     "from_spin": "a",
+     "to_orbital": 37,
+     "to_spin": "a"
+    }
+   ],
+   "wavelength_nm": 199.2
+  },
+  {
+   "energy_ev": 7.109018368490477,
+   "index": 4,
+   "multiplicity": "singlet",
+   "oscillator_strength": 0.220313769,
+   "rotatory_strength": null,
+   "spin_squared": null,
+   "symmetry": null,
+   "transition_dipole": null,
+   "transitions": [
+    {
+     "coefficient": 0.107563,
+     "from_orbital": 31,
+     "from_spin": "a",
+     "to_orbital": 36,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.331992,
+     "from_orbital": 33,
+     "from_spin": "a",
+     "to_orbital": 35,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.057008,
+     "from_orbital": 33,
+     "from_spin": "a",
+     "to_orbital": 38,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.479204,
+     "from_orbital": 34,
+     "from_spin": "a",
+     "to_orbital": 36,
+     "to_spin": "a"
+    }
+   ],
+   "wavelength_nm": 174.4
+  },
+  {
+   "energy_ev": 7.4151477528551455,
+   "index": 5,
+   "multiplicity": "singlet",
+   "oscillator_strength": 0.0,
+   "rotatory_strength": null,
+   "spin_squared": null,
+   "symmetry": null,
+   "transition_dipole": null,
+   "transitions": [
+    {
+     "coefficient": 0.645508,
+     "from_orbital": 32,
+     "from_spin": "a",
+     "to_orbital": 36,
+     "to_spin": "a"
+    },
+    {
+     "coefficient": 0.352743,
+     "from_orbital": 33,
+     "from_spin": "a",
+     "to_orbital": 37,
+     "to_spin": "a"
+    }
+   ],
+   "wavelength_nm": 167.2
+  },
+  {
+   "energy_ev": 3.1356967611296764,
+   "index": 6,
+   "multiplicity": "triplet",
+   "oscillator_strength": 0.0,
    "rotatory_strength": null,
    "spin_squared": null,
    "symmetry": null,
@@ -58,13 +214,13 @@
      "to_spin": "a"
     }
    ],
-   "wavelength_nm": 231.7
+   "wavelength_nm": 395.4
   },
   {
-   "energy_ev": 4.245,
-   "index": 2,
-   "multiplicity": null,
-   "oscillator_strength": 1.16536979,
+   "energy_ev": 4.24473541616267,
+   "index": 7,
+   "multiplicity": "triplet",
+   "oscillator_strength": 0.0,
    "rotatory_strength": null,
    "spin_squared": null,
    "symmetry": null,
@@ -99,12 +255,12 @@
      "to_spin": "a"
     }
    ],
-   "wavelength_nm": 216.7
+   "wavelength_nm": 292.1
   },
   {
-   "energy_ev": 4.712,
-   "index": 3,
-   "multiplicity": null,
+   "energy_ev": 4.711746696421226,
+   "index": 8,
+   "multiplicity": "triplet",
    "oscillator_strength": 0.0,
    "rotatory_strength": null,
    "spin_squared": null,
@@ -140,13 +296,13 @@
      "to_spin": "a"
     }
    ],
-   "wavelength_nm": 199.2
+   "wavelength_nm": 263.1
   },
   {
-   "energy_ev": 4.971,
-   "index": 4,
-   "multiplicity": null,
-   "oscillator_strength": 0.220313769,
+   "energy_ev": 4.9711216395547115,
+   "index": 9,
+   "multiplicity": "triplet",
+   "oscillator_strength": 0.0,
    "rotatory_strength": null,
    "spin_squared": null,
    "symmetry": null,
@@ -202,12 +358,12 @@
      "to_spin": "a"
     }
    ],
-   "wavelength_nm": 174.4
+   "wavelength_nm": 249.4
   },
   {
-   "energy_ev": 5.299,
-   "index": 5,
-   "multiplicity": null,
+   "energy_ev": 5.298650696569877,
+   "index": 10,
+   "multiplicity": "triplet",
    "oscillator_strength": 0.0,
    "rotatory_strength": null,
    "spin_squared": null,
@@ -236,66 +392,6 @@
      "to_spin": "a"
     }
    ],
-   "wavelength_nm": 167.2
-  },
-  {
-   "energy_ev": 3.1356967611296764,
-   "index": 6,
-   "multiplicity": null,
-   "oscillator_strength": 3.0,
-   "rotatory_strength": null,
-   "spin_squared": null,
-   "symmetry": null,
-   "transition_dipole": null,
-   "transitions": [],
-   "wavelength_nm": 395.4
-  },
-  {
-   "energy_ev": 4.24473541616267,
-   "index": 7,
-   "multiplicity": null,
-   "oscillator_strength": 3.0,
-   "rotatory_strength": null,
-   "spin_squared": null,
-   "symmetry": null,
-   "transition_dipole": null,
-   "transitions": [],
-   "wavelength_nm": 292.1
-  },
-  {
-   "energy_ev": 4.711746696421226,
-   "index": 8,
-   "multiplicity": null,
-   "oscillator_strength": 3.0,
-   "rotatory_strength": null,
-   "spin_squared": null,
-   "symmetry": null,
-   "transition_dipole": null,
-   "transitions": [],
-   "wavelength_nm": 263.1
-  },
-  {
-   "energy_ev": 4.9711216395547115,
-   "index": 9,
-   "multiplicity": null,
-   "oscillator_strength": 3.0,
-   "rotatory_strength": null,
-   "spin_squared": null,
-   "symmetry": null,
-   "transition_dipole": null,
-   "transitions": [],
-   "wavelength_nm": 249.4
-  },
-  {
-   "energy_ev": 5.298650696569877,
-   "index": 10,
-   "multiplicity": null,
-   "oscillator_strength": 3.0,
-   "rotatory_strength": null,
-   "spin_squared": null,
-   "symmetry": null,
-   "transition_dipole": null,
-   "transitions": [],
    "wavelength_nm": 234.0
   }
  ],

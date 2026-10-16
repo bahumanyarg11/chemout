@@ -20,7 +20,7 @@
  "error_message": null,
  "excited_states": [
   {
-   "energy_ev": 3.412,
+   "energy_ev": 3.4123055078461224,
    "index": 1,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -40,7 +40,7 @@
    "wavelength_nm": 363.3
   },
   {
-   "energy_ev": 3.516,
+   "energy_ev": 3.5162414613971746,
    "index": 2,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -60,7 +60,7 @@
    "wavelength_nm": 352.6
   },
   {
-   "energy_ev": 3.623,
+   "energy_ev": 3.6231158404512205,
    "index": 3,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -80,7 +80,7 @@
    "wavelength_nm": 342.2
   },
   {
-   "energy_ev": 3.694,
+   "energy_ev": 3.6940348019580815,
    "index": 4,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -100,7 +100,7 @@
    "wavelength_nm": 335.6
   },
   {
-   "energy_ev": 3.698,
+   "energy_ev": 3.6983742489034315,
    "index": 5,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -120,7 +120,7 @@
    "wavelength_nm": 335.2
   },
   {
-   "energy_ev": 3.808,
+   "energy_ev": 3.8076539214071854,
    "index": 6,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -140,7 +140,7 @@
    "wavelength_nm": 325.6
   },
   {
-   "energy_ev": 3.874,
+   "energy_ev": 3.8736507102360354,
    "index": 7,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -160,7 +160,7 @@
    "wavelength_nm": 320.1
   },
   {
-   "energy_ev": 3.922,
+   "energy_ev": 3.922178125504891,
    "index": 8,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -180,7 +180,7 @@
    "wavelength_nm": 316.1
   },
   {
-   "energy_ev": 3.981,
+   "energy_ev": 3.981256596060869,
    "index": 9,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -200,7 +200,7 @@
    "wavelength_nm": 311.4
   },
   {
-   "energy_ev": 3.994,
+   "energy_ev": 3.9943741242556694,
    "index": 10,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -220,7 +220,7 @@
    "wavelength_nm": 310.4
   },
   {
-   "energy_ev": 4.055,
+   "energy_ev": 4.055287560948538,
    "index": 11,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -240,7 +240,7 @@
    "wavelength_nm": 305.7
   },
   {
-   "energy_ev": 4.073,
+   "energy_ev": 4.072670145569625,
    "index": 12,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -267,7 +267,7 @@
    "wavelength_nm": 304.4
   },
   {
-   "energy_ev": 4.122,
+   "energy_ev": 4.122164637586302,
    "index": 13,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -294,7 +294,7 @@
    "wavelength_nm": 300.8
   },
   {
-   "energy_ev": 4.166,
+   "energy_ev": 4.166377402749495,
    "index": 14,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -321,7 +321,7 @@
    "wavelength_nm": 297.6
   },
   {
-   "energy_ev": 4.168,
+   "energy_ev": 4.168348751504668,
    "index": 15,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -341,7 +341,7 @@
    "wavelength_nm": 297.4
   },
   {
-   "energy_ev": 4.199,
+   "energy_ev": 4.199047239038058,
    "index": 16,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -368,7 +368,7 @@
    "wavelength_nm": 295.3
   },
   {
-   "energy_ev": 4.252,
+   "energy_ev": 4.25222406174836,
    "index": 17,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -395,7 +395,7 @@
    "wavelength_nm": 291.6
   },
   {
-   "energy_ev": 4.278,
+   "energy_ev": 4.277764806626705,
    "index": 18,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -415,7 +415,7 @@
    "wavelength_nm": 289.8
   },
   {
-   "energy_ev": 4.28,
+   "energy_ev": 4.280368474793915,
    "index": 19,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -435,7 +435,7 @@
    "wavelength_nm": 289.7
   },
   {
-   "energy_ev": 4.29,
+   "energy_ev": 4.2897788754554025,
    "index": 20,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -469,7 +469,7 @@
    "wavelength_nm": 289.0
   },
   {
-   "energy_ev": 4.374,
+   "energy_ev": 4.373530201500656,
    "index": 21,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -496,7 +496,7 @@
    "wavelength_nm": 283.5
   },
   {
-   "energy_ev": 4.387,
+   "energy_ev": 4.386498948657329,
    "index": 22,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -516,7 +516,7 @@
    "wavelength_nm": 282.6
   },
   {
-   "energy_ev": 4.392,
+   "energy_ev": 4.391507910274248,
    "index": 23,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -543,7 +543,7 @@
    "wavelength_nm": 282.3
   },
   {
-   "energy_ev": 4.394,
+   "energy_ev": 4.393876008464424,
    "index": 24,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -563,7 +563,7 @@
    "wavelength_nm": 282.2
   },
   {
-   "energy_ev": 4.408,
+   "energy_ev": 4.408270573903142,
    "index": 25,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -583,7 +583,7 @@
    "wavelength_nm": 281.3
   },
   {
-   "energy_ev": 4.419,
+   "energy_ev": 4.419466347022145,
    "index": 26,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -610,7 +610,7 @@
    "wavelength_nm": 280.5
   },
   {
-   "energy_ev": 4.421,
+   "energy_ev": 4.421115336861377,
    "index": 27,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -644,7 +644,7 @@
    "wavelength_nm": 280.4
   },
   {
-   "energy_ev": 4.468,
+   "energy_ev": 4.468365714886317,
    "index": 28,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -671,7 +671,7 @@
    "wavelength_nm": 277.5
   },
   {
-   "energy_ev": 4.487,
+   "energy_ev": 4.486529399957567,
    "index": 29,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -691,7 +691,7 @@
    "wavelength_nm": 276.3
   },
   {
-   "energy_ev": 4.498,
+   "energy_ev": 4.498320297229075,
    "index": 30,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -718,7 +718,7 @@
    "wavelength_nm": 275.6
   },
   {
-   "energy_ev": 4.501,
+   "energy_ev": 4.501159535373318,
    "index": 31,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -738,7 +738,7 @@
    "wavelength_nm": 275.4
   },
   {
-   "energy_ev": 4.512,
+   "energy_ev": 4.512442097431228,
    "index": 32,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -779,7 +779,7 @@
    "wavelength_nm": 274.8
   },
   {
-   "energy_ev": 4.524,
+   "energy_ev": 4.523997424725702,
    "index": 33,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -806,7 +806,7 @@
    "wavelength_nm": 274.1
   },
   {
-   "energy_ev": 4.529,
+   "energy_ev": 4.529204761060122,
    "index": 34,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -833,7 +833,7 @@
    "wavelength_nm": 273.7
   },
   {
-   "energy_ev": 4.538,
+   "energy_ev": 4.538106826508011,
    "index": 35,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -860,7 +860,7 @@
    "wavelength_nm": 273.2
   },
   {
-   "energy_ev": 4.557,
+   "energy_ev": 4.5573987677850525,
    "index": 36,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -880,7 +880,7 @@
    "wavelength_nm": 272.1
   },
   {
-   "energy_ev": 4.561,
+   "energy_ev": 4.561143090577897,
    "index": 37,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -900,7 +900,7 @@
    "wavelength_nm": 271.8
   },
   {
-   "energy_ev": 4.583,
+   "energy_ev": 4.582703942686364,
    "index": 38,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -948,7 +948,7 @@
    "wavelength_nm": 270.5
   },
   {
-   "energy_ev": 4.642,
+   "energy_ev": 4.641757616402654,
    "index": 39,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -975,7 +975,7 @@
    "wavelength_nm": 267.1
   },
   {
-   "energy_ev": 4.682,
+   "energy_ev": 4.682300449292066,
    "index": 40,
    "multiplicity": "singlet",
    "oscillator_strength": 1e-09,
@@ -1023,7 +1023,7 @@
    "wavelength_nm": 264.8
   },
   {
-   "energy_ev": 4.683,
+   "energy_ev": 4.682907971864415,
    "index": 41,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1043,7 +1043,7 @@
    "wavelength_nm": 264.8
   },
   {
-   "energy_ev": 4.701,
+   "energy_ev": 4.700761696439568,
    "index": 42,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1077,7 +1077,7 @@
    "wavelength_nm": 263.8
   },
   {
-   "energy_ev": 4.708,
+   "energy_ev": 4.708151154666508,
    "index": 43,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1125,7 +1125,7 @@
    "wavelength_nm": 263.3
   },
   {
-   "energy_ev": 4.714,
+   "energy_ev": 4.71446195036703,
    "index": 44,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1145,7 +1145,7 @@
    "wavelength_nm": 263.0
   },
   {
-   "energy_ev": 4.715,
+   "energy_ev": 4.71452394246625,
    "index": 45,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1165,7 +1165,7 @@
    "wavelength_nm": 263.0
   },
   {
-   "energy_ev": 4.718,
+   "energy_ev": 4.718082288961437,
    "index": 46,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1192,7 +1192,7 @@
    "wavelength_nm": 262.8
   },
   {
-   "energy_ev": 4.729,
+   "energy_ev": 4.729067288943094,
    "index": 47,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1240,7 +1240,7 @@
    "wavelength_nm": 262.2
   },
   {
-   "energy_ev": 4.75,
+   "energy_ev": 4.75042976633406,
    "index": 48,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1274,7 +1274,7 @@
    "wavelength_nm": 261.0
   },
   {
-   "energy_ev": 4.755,
+   "energy_ev": 4.755041978515974,
    "index": 49,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,
@@ -1322,7 +1322,7 @@
    "wavelength_nm": 260.7
   },
   {
-   "energy_ev": 4.767,
+   "energy_ev": 4.767316414161392,
    "index": 50,
    "multiplicity": "singlet",
    "oscillator_strength": 0.0,

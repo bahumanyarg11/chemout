@@ -910,6 +910,11 @@ class GaussianParser(Parser):
             else:
                 for g, e in zip(geoms, energies):
                     g.energy = e
+        # A frequency (or any follow-up) step re-prints the converged geometry: drop trailing duplicates.
+        while len(geoms) >= 2 and geoms[-1].coordinates == geoms[-2].coordinates:
+            dup = geoms.pop()
+            if geoms[-1].energy is None:
+                geoms[-1].energy = dup.energy
         c.geometries = geoms
         if c.molecule.atomic_numbers and any(z <= 0 for z in c.molecule.atomic_numbers):
             keep = [i for i, z in enumerate(c.molecule.atomic_numbers) if z > 0]

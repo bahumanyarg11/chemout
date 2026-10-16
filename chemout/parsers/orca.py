@@ -1086,6 +1086,19 @@ class OrcaParser(Parser):
         self.calc.vibrations = v
 
     # -------------------------------------------------------- excited states
+    @section(lambda s: "EXCITED STATES" in s and s.strip().endswith(")") and ("SINGLETS" in s or "TRIPLETS" in s))
+    def _excited_block(self, line: str) -> None:
+        # "TD-DFT/TDA EXCITED STATES (SINGLETS)" then "... (TRIPLETS)": both blocks restart at STATE 1, while
+        # the spectrum numbers them consecutively. Offset the triplet indices so the two sets line up.
+        if "TRIPLETS" in line:
+            self.state["exc_offset"] = len(self.calc.excited_states)
+            self.state["exc_mult"] = "triplet"
+        else:
+            self.calc.excited_states = []  # a new TD-DFT run (e.g. after an optimisation cycle)
+            self.state["exc_offset"] = 0
+            self.state["exc_mult"] = "singlet"
+        self.lines.next()
+
     @section(lambda s: re.match(r"^STATE\s+\d+:\s+E=", s) is not None)
     def _state(self, line: str) -> None:
         lines = self.lines
@@ -1094,12 +1107,17 @@ class OrcaParser(Parser):
             lines.next()
             return
         idx, e_au, e_ev, e_cm, s2, mult = m.groups()
+        # the cm**-1 value carries one more significant digit than the eV one
+        energy_ev = float(e_cm) / 8065.543937 if float(e_cm) else float(e_ev)
+        multiplicity = (
+            {"1": "singlet", "2": "doublet", "3": "triplet"}.get(mult) if mult else self.state.get("exc_mult")
+        )
         st = ExcitedState(
-            index=int(idx),
-            energy_ev=float(e_ev),
+            index=int(idx) + self.state.get("exc_offset", 0),
+            energy_ev=energy_ev,
             wavelength_nm=1e7 / float(e_cm) if float(e_cm) else None,
             spin_squared=float(s2) if s2 else None,
-            multiplicity={"1": "singlet", "2": "doublet", "3": "triplet"}.get(mult) if mult else None,
+            multiplicity=multiplicity,
         )
         lines.next()
         while not lines.done:
@@ -1123,7 +1141,7 @@ class OrcaParser(Parser):
         if JobType.EXCITED_STATES not in self.calc.input.job_types:
             self.calc.input.job_types.append(JobType.EXCITED_STATES)
 
-    @section(lambda s: "ABSORPTION SPECTRUM VIA TRANSITION ELECTRIC DIPOLE MOMENTS" in s)
+    @section(lambda s: s.strip().startswith("ABSORPTION SPECTRUM VIA TRANSITION ELECTRIC DIPOLE MOMENTS"))
     def _absorption(self, line: str) -> None:
         lines = self.lines
         lines.next()
@@ -1140,29 +1158,33 @@ class OrcaParser(Parser):
             cur = lines.current
             if not cur.strip():
                 break
+            forbidden = "spin forbidden" in cur  # "... spin forbidden (mult=3)" replaces fosc and the dipole
+            mf = re.search(r"mult=(\d)", cur)
             if orca6:
                 m = _SPEC_ROW6_RE.match(cur)
                 if not m:
                     break
                 idx = int(m.group(4))
-                vals = floats_in(m.group(7))
-                if len(vals) < 4:
+                vals = floats_in(m.group(7).split("spin")[0])
+                if len(vals) < 3:
                     break
-                e_ev, e_cm, wl, fosc = vals[0], vals[1], vals[2], vals[3]
+                e_ev, e_cm, wl = vals[0], vals[1], vals[2]
+                fosc = 0.0 if forbidden else (vals[3] if len(vals) > 3 else None)
                 sym = m.group(6) or None
-                mult_from_label = m.group(5)
+                mult_from_label = mf.group(1) if mf else m.group(5)
             else:
                 toks = cur.split()
                 if not toks[0].isdigit():
                     break
-                vals = floats_in(" ".join(toks[1:]))
-                if len(vals) < 3:
+                vals = floats_in(" ".join(toks[1:]).split("spin")[0])
+                if len(vals) < 2:
                     break
                 idx = int(toks[0])
-                e_cm, wl, fosc = vals[0], vals[1], vals[2]
+                e_cm, wl = vals[0], vals[1]
+                fosc = 0.0 if forbidden else (vals[2] if len(vals) > 2 else None)
                 e_ev = e_cm / 8065.543937
                 sym = None
-                mult_from_label = None
+                mult_from_label = mf.group(1) if mf else None
             n += 1
             st = by_index.get(idx)
             if st is None:
