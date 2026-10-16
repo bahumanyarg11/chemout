@@ -68,7 +68,7 @@ Where both produced a record, per quantity (agree / differ by < 1e-4 Eh / disagr
 
 | quantity | cclib 1.8.1 (latest release) | cclib master (2.0 dev) |
 |---|---|---|
-| scf_energy | 106 / 0 / 7 / 2 | 181 / 1 / 34 / 2 |
+| scf_energy | 109 / 0 / 4 / 2 | 212 / 0 / 4 / 2 |
 | n_geometries | 105 / 0 / 13 / 6 | 207 / 0 / 17 / 6 |
 | final_coordinates | 113 / 0 / 5 / 6 | 219 / 0 / 5 / 6 |
 | charge | 124 / 0 / 0 / 3 | 231 / 0 / 0 / 3 |

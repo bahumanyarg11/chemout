@@ -4,7 +4,7 @@ Files: 247 (1 skipped: not ORCA/Gaussian/xTB). cclib failed on **119** files (ex
 
 | quantity | agree | differ < 1e-4 Eh | disagree | chemout only | cclib only | neither |
 |---|---|---|---|---|---|---|
-| scf_energy | 106 | 0 | 7 | 2 | 0 | 12 |
+| scf_energy | 109 | 0 | 4 | 2 | 0 | 12 |
 | n_geometries | 105 | 0 | 13 | 2 | 4 | 3 |
 | final_coordinates | 113 | 0 | 5 | 2 | 4 | 3 |
 | charge | 124 | 0 | 0 | 1 | 2 | 0 |
@@ -143,9 +143,6 @@ converged total: not a parsing error on either side.
 
 ## Disagreements
 
-- `947.out` (orca 4.2.1): scf_energy
-- `cope.out` (orca 4.2.1): scf_energy
-- `dvb_dispersion_bp86_d3zero.out` (orca 4.2.0): scf_energy
 - `Benzene_anion.log` (gaussian 16 RevC.01): n_geometries
 - `dol-1-pen-5-pen-trip.out` (gaussian 16 RevC.01): n_geometries, final_coordinates
 - `issue1153.log` (gaussian 16 RevC.01): n_geometries

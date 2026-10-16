@@ -165,7 +165,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -273,7 +273,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",
@@ -290,7 +290,7 @@
   "cclib_ok": true,
   "cclib_error": null,
   "result": {
-   "scf_energy": "disagree",
+   "scf_energy": "agree",
    "n_geometries": "agree",
    "final_coordinates": "agree",
    "charge": "agree",

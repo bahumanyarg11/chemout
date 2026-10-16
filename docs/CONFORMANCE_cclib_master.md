@@ -4,7 +4,7 @@ Files: 247 (1 skipped: not ORCA/Gaussian/xTB). cclib failed on **12** files (exc
 
 | quantity | agree | differ < 1e-4 Eh | disagree | chemout only | cclib only | neither |
 |---|---|---|---|---|---|---|
-| scf_energy | 181 | 1 | 34 | 2 | 0 | 16 |
+| scf_energy | 212 | 0 | 4 | 2 | 0 | 16 |
 | n_geometries | 207 | 0 | 17 | 2 | 4 | 4 |
 | final_coordinates | 219 | 0 | 5 | 2 | 4 | 4 |
 | charge | 231 | 0 | 0 | 1 | 2 | 0 |
@@ -38,9 +38,6 @@ converged total: not a parsing error on either side.
 
 - `ho-h_cas_aDZ_scanSA.out` (orca 6.0.0): etenergies
 - `1038.out` (orca 5.0.4): final_coordinates
-- `947.out` (orca 4.2.1): scf_energy
-- `cope.out` (orca 4.2.1): scf_energy
-- `dvb_dispersion_bp86_d3zero.out` (orca 4.2.0): scf_energy
 - `Benzene_anion.log` (gaussian 16 RevC.01): n_geometries
 - `Pyridine_opt-eomccsd.log` (gaussian 16 RevC.01): etenergies
 - `co_pbe1pbe_631ppGss.log` (gaussian 16 RevApple): n_geometries
@@ -62,37 +59,10 @@ converged total: not a parsing error on either side.
 - `1448.out` (xtb 6.5.1): homo_energy
 - `1768_sdf.out` (xtb 6.7.1pre): homo_energy
 - `1768_xyz.out` (xtb 6.7.1pre): homo_energy
-- `Svatunek-Lab__teaching__H2O.out` (orca 6.0.0): scf_energy
 - `Xingyao-Wu__Chebyshev-Tree-Tensor-Network-for-Vibrational-Spectra__opt.out` (orca 6.1.0): n_geometries
-- `aligfellow__graphRC__dihedral.out` (orca 6.0.1): scf_energy
-- `avcopan__project-cyclopentene-oh-addition__opt_orca.out` (orca 6.1.1): scf_energy
 - `chpc-uofu__chpc-myjobs-templates__cadi.out` (orca 6.1.1): n_geometries
 - `chpc-uofu__cluster-validation__cadi.out` (orca 6.0.1): n_geometries
-- `dhwan0112__dhk.github.io__water.out` (orca 6.1.1): scf_energy
-- `geoffreyweal__ORCA_Mechanism_Procedure__output.out` (orca 6.1.0-f.0): scf_energy
-- `geoffreyweal__viewORCA__output.out` (orca 6.1.0-f.0): scf_energy
-- `jhoanlond__QCXMS2__orca.out` (orca 6.0.1): scf_energy
 - `jhoanlond__QCXMS2__orca_atom6.out` (orca 6.0.1): homo_energy
-- `ll23002__Orca__Etanol.out` (orca 6.1.1): scf_energy
-- `ll23002__Orca__agua.out` (orca 6.1.1): scf_energy
-- `ll23002__Orca__water.out` (orca 6.1.0-f.0): scf_energy
-- `lucasandradechem-lab__chg2itp__dft.out` (orca 6.1.1): scf_energy
-- `lucasgarayy__Machine-Learned-Interatomic-Potentials-for-Photophysics__orca.out` (orca 6.0.0): scf_energy
-- `madsr2d2__masterThesis__benzaldehyde_tddft.out` (orca 6.0.1): scf_energy
-- `madsr2d2__masterThesis__benzoic_acid_tddft.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__h2_frag.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__h3_frag.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__hh-pg_cplx.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__k2_frag.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__kh-pg_cplx.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__pg1_frag.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__r2_frag.out` (orca 6.0.1): scf_energy
-- `mersalas__qm_cmd__rh-pg_cplx.out` (orca 6.0.1): scf_energy
-- `patonlab__pyDFTD3__ibuprofen_b3lyp_orca.out` (orca 6.1.0): scf_energy
-- `patonlab__pyDFTD3__ibuprofen_pbe_orca.out` (orca 6.1.0): scf_energy
-- `rgora__photochemistry__uracil_s0.out` (orca 6.0.1): scf_energy
-- `rgora__photochemistry__uracil_s0_vee.out` (orca 6.0.1): scf_energy
-- `rgora__photochemistry__uracil_s0_vg.out` (orca 6.0.1): scf_energy
 - `acetate_alpb.out` (xtb 6.7.1): homo_energy
 - `ethanol_gfn1_opt.out` (xtb 6.7.1): homo_energy
 - `ethanol_grad.out` (xtb 6.7.1): homo_energy
