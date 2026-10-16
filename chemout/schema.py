@@ -90,7 +90,7 @@ class Provenance(_Model):
     path: str | None = None
     sha256: str | None = None
     size_bytes: int | None = None
-    parsed_at: str = Field(default_factory=lambda: _dt.datetime.now(_dt.UTC).isoformat())
+    parsed_at: str = Field(default_factory=lambda: _dt.datetime.now(_dt.timezone.utc).isoformat())
     chemout_version: str = "0.1.0"
     warnings: list[ParseWarning] = Field(default_factory=list)
 

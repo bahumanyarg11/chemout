@@ -141,7 +141,11 @@ def cmd_batch(args: argparse.Namespace) -> int:
             calc = Calculation.from_json(js)
             rows.append(summary_row(calc))
             if out:
-                _write(calc, out, append=True)
+                try:
+                    _write(calc, out, append=True)
+                except Exception as exc:  # noqa: BLE001 - one unwritable record must not stop the batch
+                    errors += 1
+                    print(f"ERROR writing {path}: {type(exc).__name__}: {exc}", file=sys.stderr)
             if not args.quiet and done % 50 == 0:
                 print(f"{done}/{len(files)}", file=sys.stderr)
     if args.csv:

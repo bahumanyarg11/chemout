@@ -5,6 +5,7 @@ Layout (``/`` or the requested group)::
     attrs: program, version, termination, path, sha256, chemout_version, json (full record)
     molecule/atomic_numbers          int   (n_atoms,)
     geometries/coordinates           float (n_geom, n_atoms, 3)   Angstrom
+                                     (or coordinates_0000, ... when the atom count changes within the file)
     geometries/energies              float (n_geom,)              Hartree (nan when unknown)
     scf/energies                     float (n_scf,)
     orbitals/energies                float (n_spin, n_mo)
@@ -25,6 +26,15 @@ import math
 import numpy as np
 
 from ..schema import Calculation
+
+
+def _pad(rows: list[list[float]]) -> np.ndarray:
+    """Stack per-spin rows into a 2-D array, padding a shorter spin block with NaN."""
+    width = max(len(r) for r in rows)
+    out = np.full((len(rows), width), np.nan)
+    for i, r in enumerate(rows):
+        out[i, : len(r)] = r
+    return out
 
 
 def write_hdf5(calc: Calculation, path: str, group: str | None = None, mode: str = "a") -> None:
@@ -48,21 +58,28 @@ def write_hdf5(calc: Calculation, path: str, group: str | None = None, mode: str
         if calc.molecule.atomic_numbers:
             g.create_dataset("molecule/atomic_numbers", data=np.asarray(calc.molecule.atomic_numbers, dtype=np.int32))
         if calc.geometries:
-            coords = np.asarray([geo.coordinates for geo in calc.geometries], dtype=float)
             energies = np.asarray(
                 [geo.energy if geo.energy is not None else math.nan for geo in calc.geometries], dtype=float
             )
-            g.create_dataset("geometries/coordinates", data=coords)
             g.create_dataset("geometries/energies", data=energies)
+            sizes = {len(geo.coordinates) for geo in calc.geometries}
+            if len(sizes) == 1:
+                g.create_dataset(
+                    "geometries/coordinates", data=np.asarray([geo.coordinates for geo in calc.geometries], dtype=float)
+                )
+            else:
+                # Ragged (atom count changes within the file, e.g. fragments or scans): one dataset per geometry.
+                for i, geo in enumerate(calc.geometries):
+                    g.create_dataset(f"geometries/coordinates_{i:04d}", data=np.asarray(geo.coordinates, dtype=float))
         if calc.scf_cycles:
             g.create_dataset(
                 "scf/energies",
                 data=np.asarray([c.energy if c.energy is not None else math.nan for c in calc.scf_cycles]),
             )
         if calc.orbitals and calc.orbitals.energies:
-            g.create_dataset("orbitals/energies", data=np.asarray(calc.orbitals.energies, dtype=float))
+            g.create_dataset("orbitals/energies", data=_pad(calc.orbitals.energies))
             if calc.orbitals.occupations:
-                g.create_dataset("orbitals/occupations", data=np.asarray(calc.orbitals.occupations, dtype=float))
+                g.create_dataset("orbitals/occupations", data=_pad(calc.orbitals.occupations))
         for pop in calc.populations:
             g.create_dataset(f"populations/{pop.method}/charges", data=np.asarray(pop.charges, dtype=float))
             if pop.spins is not None:
