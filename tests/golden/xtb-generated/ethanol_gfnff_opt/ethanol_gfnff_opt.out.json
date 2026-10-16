@@ -1,0 +1,252 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {
+   "add_restraining": 0.0,
+   "angle_energy": 0.001558205563,
+   "bond_energy": -1.224925579945,
+   "bonded_atm_energy": -0.000121852087,
+   "dispersion_energy": -0.002411584443,
+   "electrostat_energy": -0.061901137184,
+   "external_energy": 0.0,
+   "gradient_norm": 0.000655891271,
+   "hb_energy": 0.0,
+   "repulsion": 0.068636432016,
+   "torsion_energy": 9.206664e-06,
+   "total_charge": -0.0,
+   "xb_energy": 0.0
+  },
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": null,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -1.219156309416,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     -0.9019310120681,
+     0.1522414600836,
+     -0.03189924298443
+    ],
+    [
+     0.46860819992004,
+     -0.49143359589124,
+     -0.0039445168843
+    ],
+    [
+     1.50256407654894,
+     0.47454574242052,
+     0.0227481040081
+    ],
+    [
+     -1.70670139568946,
+     -0.58544042199027,
+     -0.03890232802686
+    ],
+    [
+     -1.01312017155107,
+     0.78239120729074,
+     -0.91499215799794
+    ],
+    [
+     -1.04169714047169,
+     0.7948792870685,
+     0.83806458743397
+    ],
+    [
+     0.57493679193138,
+     -1.1373006553049,
+     0.87848495574482
+    ],
+    [
+     0.61284225931226,
+     -1.13211925686565,
+     -0.88469774514826
+    ],
+    [
+     2.3894983920677,
+     0.04623623318871,
+     0.02213834385489
+    ]
+   ],
+   "energy": -1.219156309416,
+   "label": "final",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": null,
+  "charge": null,
+  "dispersion": null,
+  "extra": {},
+  "functional": null,
+  "job_types": [
+   "optimization"
+  ],
+  "memory_mb": null,
+  "method": "GFN-FF",
+  "multiplicity": null,
+  "nprocs": null,
+  "raw": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/envs/xtb/bin/xtb ../ethanol.xyz --gfnff --opt",
+  "solvation": null,
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   6,
+   6,
+   8,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "charge": null,
+  "masses": null,
+  "multiplicity": null,
+  "n_basis_functions": null,
+  "n_electrons": null,
+  "point_group": null,
+  "symbols": [
+   "C",
+   "C",
+   "O",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": null,
+ "nmr": [],
+ "optimization": {
+  "converged": true,
+  "criteria": {},
+  "n_steps": 6,
+  "steps": [
+   {
+    "converged_flags": {},
+    "delta_energy": 0.0,
+    "energy": -1.2172108,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0305826,
+    "rms_step": null,
+    "step": 1
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.00122564,
+    "energy": -1.2184364,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.019596,
+    "rms_step": null,
+    "step": 2
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0006638393,
+    "energy": -1.2191002,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0056902,
+    "rms_step": null,
+    "step": 3
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -3.814265e-05,
+    "energy": -1.2191384,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0025224,
+    "rms_step": null,
+    "step": 4
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.51674e-05,
+    "energy": -1.2191536,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0007979,
+    "rms_step": null,
+    "step": 5
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.750559e-06,
+    "energy": -1.2191563,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0006559,
+    "rms_step": null,
+    "step": 6
+   }
+  ]
+ },
+ "orbitals": null,
+ "populations": [],
+ "program": {
+  "date": null,
+  "name": "xtb",
+  "revision": "edcfbbe",
+  "version": "6.7.1",
+  "version_tuple": [
+   6,
+   7,
+   1
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 0.005,
+  "n_procs": null,
+  "wall_seconds": 0.023
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

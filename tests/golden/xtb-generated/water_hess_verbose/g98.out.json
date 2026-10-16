@@ -1,0 +1,208 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {},
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": null,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": null,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     0.0,
+     0.0,
+     0.11779
+    ],
+    [
+     2e-06,
+     0.755452,
+     -0.471162
+    ],
+    [
+     -6e-06,
+     -0.755454,
+     -0.47116
+    ]
+   ],
+   "energy": null,
+   "label": "standard",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": null,
+  "charge": null,
+  "dispersion": null,
+  "extra": {},
+  "functional": null,
+  "job_types": [
+   "frequency"
+  ],
+  "memory_mb": null,
+  "method": null,
+  "multiplicity": null,
+  "nprocs": null,
+  "raw": null,
+  "solvation": null,
+  "title": null,
+  "unrestricted": null
+ },
+ "molecule": {
+  "atomic_numbers": [
+   8,
+   1,
+   1
+  ],
+  "charge": null,
+  "masses": null,
+  "multiplicity": null,
+  "n_basis_functions": null,
+  "n_electrons": 2,
+  "point_group": null,
+  "symbols": [
+   "O",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": null,
+ "nmr": [],
+ "optimization": null,
+ "orbitals": null,
+ "populations": [],
+ "program": {
+  "date": null,
+  "name": "gaussian",
+  "revision": null,
+  "version": null,
+  "version_tuple": null
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [],
+ "schema_version": "1",
+ "termination": "incomplete",
+ "timing": null,
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": {
+  "force_constants": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "frequencies": [
+   1562.1642,
+   3669.3746,
+   3677.432
+  ],
+  "ir_intensities": [
+   132.6639,
+   14.2569,
+   5.8968
+  ],
+  "n_imaginary": 0,
+  "normal_modes": [
+   [
+    [
+     0.0,
+     0.0,
+     0.27
+    ],
+    [
+     -0.0,
+     -0.41,
+     -0.54
+    ],
+    [
+     0.0,
+     0.41,
+     -0.54
+    ]
+   ],
+   [
+    [
+     -0.0,
+     -0.27,
+     0.0
+    ],
+    [
+     0.0,
+     0.54,
+     -0.42
+    ],
+    [
+     0.0,
+     0.54,
+     0.42
+    ]
+   ],
+   [
+    [
+     -0.0,
+     -0.0,
+     -0.19
+    ],
+    [
+     -0.0,
+     -0.57,
+     0.39
+    ],
+    [
+     0.0,
+     0.57,
+     0.39
+    ]
+   ]
+  ],
+  "raman_activities": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "reduced_masses": [
+   2.1156,
+   2.0974,
+   1.5778
+  ],
+  "symmetries": [
+   "a",
+   "a",
+   "a"
+  ],
+  "thermochemistry": null
+ }
+}

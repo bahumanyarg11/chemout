@@ -1,0 +1,331 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": -0.002769694759,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {
+   "add_restraining": 0.0,
+   "anisotropic_es": 0.003090109959,
+   "anisotropic_xc": 0.002535018591,
+   "gradient_norm": 0.026739971355,
+   "homo_lumo_gap_eh": 0.446498,
+   "homo_lumo_gap_ev": 12.149829779469,
+   "isotropic_es": 0.025953263628,
+   "repulsion": 0.116064592455,
+   "scc": -11.506838540261,
+   "total_charge": -0.0
+  },
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -11.506838540261,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -11.390773947807,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": null,
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "electronic_temperature_K": 300.0
+  },
+  "functional": null,
+  "job_types": [
+   "gradient"
+  ],
+  "memory_mb": null,
+  "method": "GFN2-xTB",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/envs/xtb/bin/xtb ../ethanol.xyz --grad",
+  "solvation": null,
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   6,
+   6,
+   8,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 18,
+  "n_electrons": 20,
+  "point_group": null,
+  "symbols": [
+   "C",
+   "C",
+   "O",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.109,
+   -0.701,
+   -0.032
+  ],
+  "dipole_magnitude": 1.804,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": null,
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -0.6828428,
+    -0.6250218,
+    -0.5785265,
+    -0.5655751,
+    -0.5295384,
+    -0.5055728,
+    -0.4643076,
+    -0.4595524,
+    -0.4519914,
+    -0.40861,
+    0.037888,
+    0.1215041,
+    0.1240792,
+    0.1516548,
+    0.1684075,
+    0.197538,
+    0.2451048,
+    0.2714798
+   ]
+  ],
+  "homo": [
+   9
+  ],
+  "homo_energy": [
+   -0.40861
+  ],
+  "indices": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ]
+  ],
+  "lumo_energy": [
+   0.037888
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.107,
+    0.088,
+    -0.443,
+    0.037,
+    0.053,
+    0.055,
+    0.018,
+    0.018,
+    0.28
+   ],
+   "method": "mulliken",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "xtb",
+  "revision": "edcfbbe",
+  "version": "6.7.1",
+  "version_tuple": [
+   6,
+   7,
+   1
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -11.506839,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -11.4843,
+     "diis_error": null,
+     "energy": -11.4843169,
+     "max_density": null,
+     "rms_density": 0.377
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.0218167,
+     "diis_error": null,
+     "energy": -11.5061337,
+     "max_density": null,
+     "rms_density": 0.203
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000487195,
+     "diis_error": null,
+     "energy": -11.5066209,
+     "max_density": null,
+     "rms_density": 0.0817
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000197725,
+     "diis_error": null,
+     "energy": -11.5068186,
+     "max_density": null,
+     "rms_density": 0.0137
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.90395e-05,
+     "diis_error": null,
+     "energy": -11.5068376,
+     "max_density": null,
+     "rms_density": 0.00738
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.23037e-06,
+     "diis_error": null,
+     "energy": -11.5068389,
+     "max_density": null,
+     "rms_density": 0.0012
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.32515e-07,
+     "diis_error": null,
+     "energy": -11.506839,
+     "max_density": null,
+     "rms_density": 0.000337
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.40469e-09,
+     "diis_error": null,
+     "energy": -11.506839,
+     "max_density": null,
+     "rms_density": 0.000109
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.85867e-09,
+     "diis_error": null,
+     "energy": -11.506839,
+     "max_density": null,
+     "rms_density": 1.59e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.2859e-11,
+     "diis_error": null,
+     "energy": -11.506839,
+     "max_density": null,
+     "rms_density": 3.39e-06
+    }
+   ],
+   "n_iterations": 10,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 0.005,
+  "n_procs": null,
+  "wall_seconds": 0.026
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

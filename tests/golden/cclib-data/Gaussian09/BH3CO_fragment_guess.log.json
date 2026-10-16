@@ -1,0 +1,151 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {},
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": null,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": null,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     -1.402704,
+     0.000287,
+     6.3e-05
+    ],
+    [
+     -1.672219,
+     -0.605945,
+     -1.003306
+    ],
+    [
+     -1.673357,
+     1.171825,
+     -0.02148
+    ],
+    [
+     -1.671668,
+     -0.568318,
+     1.025441
+    ],
+    [
+     0.226146,
+     0.000264,
+     -0.000338
+    ],
+    [
+     1.334236,
+     -7.2e-05,
+     0.000132
+    ]
+   ],
+   "energy": null,
+   "label": "standard",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": "STO-3G",
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "stoichiometry": "CH3BO"
+  },
+  "functional": "B3LYP",
+  "job_types": [
+   "energy"
+  ],
+  "memory_mb": 1000.0,
+  "method": "B3LYP",
+  "multiplicity": 1,
+  "nprocs": 2,
+  "raw": "#p B3LYP/STO-3G guess=(only,fragment=2) pop=none",
+  "solvation": null,
+  "title": null,
+  "unrestricted": null
+ },
+ "molecule": {
+  "atomic_numbers": [
+   5,
+   1,
+   1,
+   1,
+   6,
+   8
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 10,
+  "n_electrons": 14,
+  "point_group": "C1",
+  "symbols": [
+   "B",
+   "H",
+   "H",
+   "H",
+   "C",
+   "O"
+  ]
+ },
+ "multipoles": null,
+ "nmr": [],
+ "optimization": null,
+ "orbitals": null,
+ "populations": [],
+ "program": {
+  "date": "24-Apr-2013",
+  "name": "gaussian",
+  "revision": "EM64L-G09RevD.01",
+  "version": "09 RevD.01",
+  "version_tuple": [
+   9
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 4.4,
+  "n_procs": 2,
+  "wall_seconds": null
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

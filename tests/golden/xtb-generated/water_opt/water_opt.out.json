@@ -1,0 +1,576 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": -0.000141095262,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {
+   "add_restraining": 0.0,
+   "anisotropic_es": 0.000400109486,
+   "anisotropic_xc": -0.000876235016,
+   "gradient_norm": 0.000672098729,
+   "homo_lumo_gap_eh": 0.528219,
+   "homo_lumo_gap_ev": 14.373571816213,
+   "isotropic_es": 0.0314584087,
+   "repulsion": 0.034240417344,
+   "scc": -5.10478458953,
+   "total_charge": 0.0
+  },
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -5.10478458953,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -5.070544172185,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     -0.0,
+     -6.834e-11,
+     0.10479600915045
+    ],
+    [
+     -0.0,
+     0.77238110212413,
+     -0.46466400460187
+    ],
+    [
+     0.0,
+     -0.77238110205579,
+     -0.46466400454858
+    ]
+   ],
+   "energy": -5.070544172185,
+   "label": "final",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": null,
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "electronic_temperature_K": 300.0
+  },
+  "functional": null,
+  "job_types": [
+   "optimization"
+  ],
+  "memory_mb": null,
+  "method": "GFN2-xTB",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/envs/xtb/bin/xtb ../water.xyz --opt",
+  "solvation": null,
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   8,
+   1,
+   1
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 6,
+  "n_electrons": 8,
+  "point_group": null,
+  "symbols": [
+   "O",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.0,
+   0.0,
+   -0.873
+  ],
+  "dipole_magnitude": 2.218,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": {
+  "converged": true,
+  "criteria": {},
+  "n_steps": 4,
+  "steps": [
+   {
+    "converged_flags": {},
+    "delta_energy": -8.881784e-16,
+    "energy": -5.0703251,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.008099,
+    "rms_step": null,
+    "step": 1
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0001581224,
+    "energy": -5.0704833,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0049218,
+    "rms_step": null,
+    "step": 2
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -5.835588e-05,
+    "energy": -5.0705416,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0020667,
+    "rms_step": null,
+    "step": 3
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.565305e-06,
+    "energy": -5.0705442,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0006721,
+    "rms_step": null,
+    "step": 4
+   }
+  ]
+ },
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -0.6800365,
+    -0.5682511,
+    -0.5108958,
+    -0.4463754,
+    0.0818437,
+    0.2505868
+   ]
+  ],
+  "homo": [
+   3
+  ],
+  "homo_energy": [
+   -0.4463754
+  ],
+  "indices": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  ],
+  "lumo_energy": [
+   0.0818437
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.565,
+    0.282,
+    0.282
+   ],
+   "method": "mulliken",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "xtb",
+  "revision": "edcfbbe",
+  "version": "6.7.1",
+  "version_tuple": [
+   6,
+   7,
+   1
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -5.1052269,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -5.10368,
+     "diis_error": null,
+     "energy": -5.1036821,
+     "max_density": null,
+     "rms_density": 0.422
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.00124852,
+     "diis_error": null,
+     "energy": -5.1049306,
+     "max_density": null,
+     "rms_density": 0.243
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000232046,
+     "diis_error": null,
+     "energy": -5.1051627,
+     "max_density": null,
+     "rms_density": 0.0378
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.9586e-05,
+     "diis_error": null,
+     "energy": -5.1052223,
+     "max_density": null,
+     "rms_density": 0.00883
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.77146e-06,
+     "diis_error": null,
+     "energy": -5.105225,
+     "max_density": null,
+     "rms_density": 0.00564
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.85007e-06,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 0.000138
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.43377e-10,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 0.000101
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.05434e-10,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 1.84e-06
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.90958e-13,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 1.01e-08
+    }
+   ],
+   "n_iterations": 9,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -5.1052269,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -5.10523,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 4.88e-10
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.32907e-15,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 1.86e-10
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.77636e-15,
+     "diis_error": null,
+     "energy": -5.1052269,
+     "max_density": null,
+     "rms_density": 5.51e-11
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -5.1046064,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -5.10461,
+     "diis_error": null,
+     "energy": -5.1046061,
+     "max_density": null,
+     "rms_density": 0.00521
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.75414e-07,
+     "diis_error": null,
+     "energy": -5.1046063,
+     "max_density": null,
+     "rms_density": 0.003
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.40708e-08,
+     "diis_error": null,
+     "energy": -5.1046063,
+     "max_density": null,
+     "rms_density": 0.000369
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.39431e-09,
+     "diis_error": null,
+     "energy": -5.1046064,
+     "max_density": null,
+     "rms_density": 6.15e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.30038e-11,
+     "diis_error": null,
+     "energy": -5.1046064,
+     "max_density": null,
+     "rms_density": 2.92e-06
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -5.1045408,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -5.10454,
+     "diis_error": null,
+     "energy": -5.1045402,
+     "max_density": null,
+     "rms_density": 0.00555
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.21852e-07,
+     "diis_error": null,
+     "energy": -5.1045408,
+     "max_density": null,
+     "rms_density": 0.00306
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.30443e-08,
+     "diis_error": null,
+     "energy": -5.1045408,
+     "max_density": null,
+     "rms_density": 0.000677
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.00962e-08,
+     "diis_error": null,
+     "energy": -5.1045408,
+     "max_density": null,
+     "rms_density": 9.39e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.45421e-11,
+     "diis_error": null,
+     "energy": -5.1045408,
+     "max_density": null,
+     "rms_density": 3.66e-06
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -5.1047846,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -5.10478,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 0.00104
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.95022e-08,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 0.000542
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.63235e-09,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 0.000155
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.48164e-10,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 2.48e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.17595e-12,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 4.25e-07
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -5.1047846,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -5.10478,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 2.16e-07
+    },
+    {
+     "damping": null,
+     "delta_energy": 2.66454e-15,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 1.3e-07
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.88178e-16,
+     "diis_error": null,
+     "energy": -5.1047846,
+     "max_density": null,
+     "rms_density": 4.03e-09
+    }
+   ],
+   "n_iterations": 3,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 0.014,
+  "n_procs": null,
+  "wall_seconds": 0.037
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

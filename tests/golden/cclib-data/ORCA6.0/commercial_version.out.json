@@ -1,0 +1,196 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {},
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -2.80778395753546,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -2.807783957535,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "energy": -2.807783957535,
+   "label": "input",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": "STO-3G",
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "hamiltonian": "Hartree-Fock(GTOs)",
+   "hf_type": "RHF"
+  },
+  "functional": null,
+  "job_types": [
+   "energy"
+  ],
+  "memory_mb": null,
+  "method": "HF",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "! HF STO-3G\n\n* xyz 0 1\nHe 0 0 0\n*\n",
+  "solvation": null,
+  "title": "commercial_version.inp",
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   2
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 1,
+  "n_electrons": 2,
+  "point_group": null,
+  "symbols": [
+   "He"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "dipole_magnitude": 0.0,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": null,
+ "orbitals": {
+  "complete": false,
+  "energies": [
+   [
+    -0.876036
+   ]
+  ],
+  "homo": [
+   0
+  ],
+  "homo_energy": [
+   -0.876036
+  ],
+  "indices": null,
+  "lumo_energy": [],
+  "n_basis": 1,
+  "occupations": [
+   [
+    2.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    0.0
+   ],
+   "method": "mulliken",
+   "spins": null
+  },
+  {
+   "charges": [
+    0.0
+   ],
+   "method": "loewdin",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "orca",
+  "revision": null,
+  "version": "6.0.1-f.3",
+  "version_tuple": [
+   6,
+   0,
+   1
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -2.80778395753546,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": 0.0,
+     "diis_error": null,
+     "energy": -2.807783957535462,
+     "max_density": 0.0,
+     "rms_density": 0.0
+    },
+    {
+     "damping": null,
+     "delta_energy": 0.0,
+     "diis_error": null,
+     "energy": -2.807783957535462,
+     "max_density": 0.0,
+     "rms_density": 0.0
+    }
+   ],
+   "n_iterations": 2,
+   "nuclear_repulsion": 0.0,
+   "one_electron": -3.86349690026969,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": 1.05571294273423
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": null,
+  "n_procs": null,
+  "wall_seconds": 0.223
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

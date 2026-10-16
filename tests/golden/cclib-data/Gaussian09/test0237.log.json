@@ -1,0 +1,214 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {},
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -74.9627570408,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -74.9627570408,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     0.0,
+     0.0,
+     0.117056
+    ],
+    [
+     0.0,
+     0.755899,
+     -0.468224
+    ],
+    [
+     0.0,
+     -0.755899,
+     -0.468224
+    ]
+   ],
+   "energy": -74.9627570408,
+   "label": "standard",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": "sto-3g",
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "scf_label": "RHF",
+   "stoichiometry": "H2O"
+  },
+  "functional": null,
+  "job_types": [
+   "energy"
+  ],
+  "memory_mb": null,
+  "method": "RHF",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "#p rhf/sto-3g test pop=(chelpg,readrad)",
+  "solvation": null,
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   8,
+   1,
+   1
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 7,
+  "n_electrons": 10,
+  "point_group": "C2V",
+  "symbols": [
+   "O",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.0,
+   0.0,
+   -1.7275
+  ],
+  "dipole_magnitude": 1.7275,
+  "polarizability": null,
+  "quadrupole": [
+   -6.0933,
+   -4.3587,
+   -5.3933,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "nmr": [],
+ "optimization": null,
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -20.24163,
+    -1.26905,
+    -0.61854,
+    -0.45319,
+    -0.39134,
+    0.60691,
+    0.74377
+   ]
+  ],
+  "homo": [
+   4
+  ],
+  "homo_energy": [
+   -0.39134
+  ],
+  "indices": null,
+  "lumo_energy": [
+   0.60691
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.367458,
+    0.183729,
+    0.183729
+   ],
+   "method": "mulliken",
+   "spins": null
+  },
+  {
+   "charges": [
+    0.0
+   ],
+   "method": "chelpg",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": "24-Apr-2013",
+  "name": "gaussian",
+  "revision": "ES64L-G09RevD.01",
+  "version": "09 RevD.01",
+  "version_tuple": [
+   9
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.9627570408,
+   "exchange_correlation": null,
+   "iterations": [],
+   "n_iterations": 7,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 1.1,
+  "n_procs": null,
+  "wall_seconds": null
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

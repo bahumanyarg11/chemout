@@ -1,0 +1,3228 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": -0.018623600339,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {
+   "add_restraining": 0.0,
+   "anisotropic_es": -0.00034622172,
+   "anisotropic_xc": 0.00615662368,
+   "gradient_norm": 0.000508413879,
+   "homo_lumo_gap_eh": 0.1324697,
+   "homo_lumo_gap_ev": 3.604684056817,
+   "isotropic_es": 0.092361468049,
+   "repulsion": 0.489937960279,
+   "scc": -40.119017532437,
+   "total_charge": 0.0
+  },
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -40.119017532437,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -39.629079572158,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     -2.72481777440572,
+     -2.22947881596346,
+     -0.04488401134471
+    ],
+    [
+     -2.10882728597901,
+     -0.89408970332902,
+     0.25464387581605
+    ],
+    [
+     -2.548539428488,
+     -0.06162083940344,
+     0.99717440111445
+    ],
+    [
+     -0.95092022962154,
+     -0.76907522764325,
+     -0.42711560665217
+    ],
+    [
+     -0.15052762516257,
+     0.33814201554585,
+     -0.25789472124907
+    ],
+    [
+     -0.65227850219745,
+     1.62332956523769,
+     -0.40358526810194
+    ],
+    [
+     0.19453518992634,
+     2.71124511411445,
+     -0.28640513657572
+    ],
+    [
+     1.5450176014112,
+     2.52462675913669,
+     -0.03879244805147
+    ],
+    [
+     2.04982539878871,
+     1.24668187629283,
+     0.10188054723452
+    ],
+    [
+     1.21185276644353,
+     0.13786439806838,
+     0.004303568878
+    ],
+    [
+     1.74465123680809,
+     -1.22873735802853,
+     0.21449612252896
+    ],
+    [
+     1.09274646460666,
+     -2.21417893398441,
+     0.4478410177456
+    ],
+    [
+     3.08612493026723,
+     -1.27231264049587,
+     0.13972049249101
+    ],
+    [
+     -2.81750153311249,
+     -2.36098885506028,
+     -1.11998934822302
+    ],
+    [
+     -3.69557998624782,
+     -2.30480070856311,
+     0.43481350914412
+    ],
+    [
+     -2.05860924428458,
+     -3.00326062755127,
+     0.33190686650374
+    ],
+    [
+     -1.70330739675152,
+     1.7629567536984,
+     -0.6009060904246
+    ],
+    [
+     -0.20458966060194,
+     3.7084540698818,
+     -0.39326466575571
+    ],
+    [
+     2.20277718826629,
+     3.37581025154521,
+     0.04781341103266
+    ],
+    [
+     3.09793016014998,
+     1.08908946119163,
+     0.30130220316702
+    ],
+    [
+     3.39023773018449,
+     -2.17975655469045,
+     0.29704128072247
+    ]
+   ],
+   "energy": -39.629079572158,
+   "label": "final",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": null,
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "electronic_temperature_K": 300.0
+  },
+  "functional": null,
+  "job_types": [
+   "optimization"
+  ],
+  "memory_mb": null,
+  "method": "GFN2-xTB",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "C:\\Users\\admin\\bin\\xtb-6.7.1pre-windows-x86_64\\xtb-6.7.1\\bin\\xtb.exe\" .\\aspirin.xyz --opt",
+  "solvation": null,
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   6,
+   6,
+   8,
+   8,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   8,
+   8,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 60,
+  "n_electrons": 68,
+  "point_group": null,
+  "symbols": [
+   "C",
+   "C",
+   "O",
+   "O",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "C",
+   "O",
+   "O",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.817,
+   0.186,
+   -0.696
+  ],
+  "dipole_magnitude": 2.769,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": {
+  "converged": true,
+  "criteria": {},
+  "n_steps": 37,
+  "steps": [
+   {
+    "converged_flags": {},
+    "delta_energy": -8.516565e-11,
+    "energy": -39.5978495,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.1665709,
+    "rms_step": null,
+    "step": 1
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.02232475,
+    "energy": -39.6201743,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.058372,
+    "rms_step": null,
+    "step": 2
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.006095976,
+    "energy": -39.6262702,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0222775,
+    "rms_step": null,
+    "step": 3
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0009898803,
+    "energy": -39.6272601,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0090988,
+    "rms_step": null,
+    "step": 4
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0004541838,
+    "energy": -39.6277143,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0064096,
+    "rms_step": null,
+    "step": 5
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0002861081,
+    "energy": -39.6280004,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0057506,
+    "rms_step": null,
+    "step": 6
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0002682536,
+    "energy": -39.6282687,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0044322,
+    "rms_step": null,
+    "step": 7
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -0.0001667977,
+    "energy": -39.6284355,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0044765,
+    "rms_step": null,
+    "step": 8
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -8.020358e-05,
+    "energy": -39.6285157,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0038102,
+    "rms_step": null,
+    "step": 9
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -3.454127e-05,
+    "energy": -39.6285502,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0020571,
+    "rms_step": null,
+    "step": 10
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.586963e-05,
+    "energy": -39.6285761,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.001643,
+    "rms_step": null,
+    "step": 11
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.768315e-05,
+    "energy": -39.6286038,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0027442,
+    "rms_step": null,
+    "step": 12
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.455108e-05,
+    "energy": -39.6286283,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0027295,
+    "rms_step": null,
+    "step": 13
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -4.841565e-05,
+    "energy": -39.6286767,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0033977,
+    "rms_step": null,
+    "step": 14
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": 6.349408e-05,
+    "energy": -39.6286132,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0088066,
+    "rms_step": null,
+    "step": 15
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -8.135821e-05,
+    "energy": -39.6286946,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0025433,
+    "rms_step": null,
+    "step": 16
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.123638e-05,
+    "energy": -39.6287058,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0020776,
+    "rms_step": null,
+    "step": 17
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.560473e-05,
+    "energy": -39.6287214,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0013403,
+    "rms_step": null,
+    "step": 18
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -3.588865e-05,
+    "energy": -39.6287573,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0027651,
+    "rms_step": null,
+    "step": 19
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.553614e-05,
+    "energy": -39.6287729,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0026771,
+    "rms_step": null,
+    "step": 20
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -4.471495e-05,
+    "energy": -39.6288176,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.003645,
+    "rms_step": null,
+    "step": 21
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.038786e-05,
+    "energy": -39.628838,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0009972,
+    "rms_step": null,
+    "step": 22
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.010352e-05,
+    "energy": -39.6288581,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0025723,
+    "rms_step": null,
+    "step": 23
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.2477e-05,
+    "energy": -39.6288705,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0020613,
+    "rms_step": null,
+    "step": 24
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -2.853967e-05,
+    "energy": -39.6288991,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0019951,
+    "rms_step": null,
+    "step": 25
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.608332e-05,
+    "energy": -39.6289152,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0025142,
+    "rms_step": null,
+    "step": 26
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -3.406553e-05,
+    "energy": -39.6289492,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.00268,
+    "rms_step": null,
+    "step": 27
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.741348e-05,
+    "energy": -39.6289666,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0046219,
+    "rms_step": null,
+    "step": 28
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.751168e-05,
+    "energy": -39.6289842,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0021058,
+    "rms_step": null,
+    "step": 29
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.606362e-05,
+    "energy": -39.6290002,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0015356,
+    "rms_step": null,
+    "step": 30
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": 6.017714e-06,
+    "energy": -39.6289942,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0058829,
+    "rms_step": null,
+    "step": 31
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -3.202584e-05,
+    "energy": -39.6290262,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0026104,
+    "rms_step": null,
+    "step": 32
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.237403e-05,
+    "energy": -39.6290386,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0009959,
+    "rms_step": null,
+    "step": 33
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.466961e-05,
+    "energy": -39.6290533,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0007338,
+    "rms_step": null,
+    "step": 34
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -4.296815e-06,
+    "energy": -39.6290576,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0044004,
+    "rms_step": null,
+    "step": 35
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -1.78917e-05,
+    "energy": -39.6290755,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0010353,
+    "rms_step": null,
+    "step": 36
+   },
+   {
+    "converged_flags": {},
+    "delta_energy": -4.11412e-06,
+    "energy": -39.6290796,
+    "max_gradient": null,
+    "max_step": null,
+    "rms_gradient": 0.0005068,
+    "rms_step": null,
+    "step": 37
+   }
+  ]
+ },
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -0.7495054,
+    -0.5087849,
+    -0.4960573,
+    -0.4907091,
+    -0.4841037,
+    -0.4826164,
+    -0.4800485,
+    -0.4745697,
+    -0.4620757,
+    -0.4506186,
+    -0.4312055,
+    -0.424804,
+    -0.4179554,
+    -0.4160635,
+    -0.2835938,
+    -0.2501794,
+    -0.2245437,
+    -0.2009302,
+    -0.1053331,
+    0.0211699,
+    0.0491159,
+    0.1182651,
+    0.1254525,
+    0.1508515,
+    0.1568363,
+    0.6831792
+   ]
+  ],
+  "homo": [
+   13
+  ],
+  "homo_energy": [
+   -0.4160635
+  ],
+  "indices": [
+   [
+    1,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    60
+   ]
+  ],
+  "lumo_energy": [
+   -0.2835938
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.149,
+    0.369,
+    -0.396,
+    -0.239,
+    0.158,
+    -0.04,
+    -0.019,
+    -0.031,
+    -0.021,
+    -0.031,
+    0.362,
+    -0.408,
+    -0.381,
+    0.08,
+    0.077,
+    0.095,
+    0.068,
+    0.056,
+    0.052,
+    0.069,
+    0.33
+   ],
+   "method": "mulliken",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "xtb",
+  "revision": "5071a88",
+  "version": "6.7.1pre",
+  "version_tuple": [
+   6,
+   7,
+   1
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -40.0159835,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.0143,
+     "diis_error": null,
+     "energy": -40.0142803,
+     "max_density": null,
+     "rms_density": 0.102
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.00141827,
+     "diis_error": null,
+     "energy": -40.0156985,
+     "max_density": null,
+     "rms_density": 0.0615
+    },
+    {
+     "damping": null,
+     "delta_energy": 0.000384682,
+     "diis_error": null,
+     "energy": -40.0153138,
+     "max_density": null,
+     "rms_density": 0.0254
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000650805,
+     "diis_error": null,
+     "energy": -40.0159646,
+     "max_density": null,
+     "rms_density": 0.00425
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.5227e-05,
+     "diis_error": null,
+     "energy": -40.0159799,
+     "max_density": null,
+     "rms_density": 0.0021
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.19979e-06,
+     "diis_error": null,
+     "energy": -40.0159821,
+     "max_density": null,
+     "rms_density": 0.00119
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.34457e-06,
+     "diis_error": null,
+     "energy": -40.0159834,
+     "max_density": null,
+     "rms_density": 0.000375
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.31759e-08,
+     "diis_error": null,
+     "energy": -40.0159834,
+     "max_density": null,
+     "rms_density": 0.000122
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.3983e-09,
+     "diis_error": null,
+     "energy": -40.0159835,
+     "max_density": null,
+     "rms_density": 4.87e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.07378e-09,
+     "diis_error": null,
+     "energy": -40.0159835,
+     "max_density": null,
+     "rms_density": 2.11e-05
+    }
+   ],
+   "n_iterations": 10,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.0159835,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.016,
+     "diis_error": null,
+     "energy": -40.0159835,
+     "max_density": null,
+     "rms_density": 7.17e-06
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.01226e-11,
+     "diis_error": null,
+     "energy": -40.0159835,
+     "max_density": null,
+     "rms_density": 4.99e-06
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.6847e-11,
+     "diis_error": null,
+     "energy": -40.0159835,
+     "max_density": null,
+     "rms_density": 2.95e-06
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.0814752,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.081,
+     "diis_error": null,
+     "energy": -40.0809505,
+     "max_density": null,
+     "rms_density": 0.0311
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000467039,
+     "diis_error": null,
+     "energy": -40.0814175,
+     "max_density": null,
+     "rms_density": 0.019
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.80614e-05,
+     "diis_error": null,
+     "energy": -40.0814456,
+     "max_density": null,
+     "rms_density": 0.00999
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.71227e-05,
+     "diis_error": null,
+     "energy": -40.0814727,
+     "max_density": null,
+     "rms_density": 0.00183
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.95279e-06,
+     "diis_error": null,
+     "energy": -40.0814747,
+     "max_density": null,
+     "rms_density": 0.000802
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.4633e-07,
+     "diis_error": null,
+     "energy": -40.0814751,
+     "max_density": null,
+     "rms_density": 0.000408
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.0989e-07,
+     "diis_error": null,
+     "energy": -40.0814752,
+     "max_density": null,
+     "rms_density": 0.00012
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.1498e-10,
+     "diis_error": null,
+     "energy": -40.0814752,
+     "max_density": null,
+     "rms_density": 5.35e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.64269e-10,
+     "diis_error": null,
+     "energy": -40.0814752,
+     "max_density": null,
+     "rms_density": 1.82e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1163239,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1161,
+     "diis_error": null,
+     "energy": -40.1161484,
+     "max_density": null,
+     "rms_density": 0.0252
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.0001594,
+     "diis_error": null,
+     "energy": -40.1163078,
+     "max_density": null,
+     "rms_density": 0.0152
+    },
+    {
+     "damping": null,
+     "delta_energy": 6.1207e-06,
+     "diis_error": null,
+     "energy": -40.1163017,
+     "max_density": null,
+     "rms_density": 0.00644
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.99984e-05,
+     "diis_error": null,
+     "energy": -40.1163217,
+     "max_density": null,
+     "rms_density": 0.0014
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.82355e-06,
+     "diis_error": null,
+     "energy": -40.1163235,
+     "max_density": null,
+     "rms_density": 0.000573
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.80763e-07,
+     "diis_error": null,
+     "energy": -40.1163238,
+     "max_density": null,
+     "rms_density": 0.000241
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.60028e-08,
+     "diis_error": null,
+     "energy": -40.1163239,
+     "max_density": null,
+     "rms_density": 6.74e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.23491e-10,
+     "diis_error": null,
+     "energy": -40.1163239,
+     "max_density": null,
+     "rms_density": 3.1e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1172153,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1172,
+     "diis_error": null,
+     "energy": -40.1171934,
+     "max_density": null,
+     "rms_density": 0.0106
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.12388e-05,
+     "diis_error": null,
+     "energy": -40.1172147,
+     "max_density": null,
+     "rms_density": 0.00645
+    },
+    {
+     "damping": null,
+     "delta_energy": 3.43224e-07,
+     "diis_error": null,
+     "energy": -40.1172143,
+     "max_density": null,
+     "rms_density": 0.00188
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.47147e-07,
+     "diis_error": null,
+     "energy": -40.1172145,
+     "max_density": null,
+     "rms_density": 0.000628
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.55583e-07,
+     "diis_error": null,
+     "energy": -40.1172153,
+     "max_density": null,
+     "rms_density": 0.000156
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.84603e-09,
+     "diis_error": null,
+     "energy": -40.1172153,
+     "max_density": null,
+     "rms_density": 7.61e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.47784e-09,
+     "diis_error": null,
+     "energy": -40.1172153,
+     "max_density": null,
+     "rms_density": 2e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1166957,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1167,
+     "diis_error": null,
+     "energy": -40.1166862,
+     "max_density": null,
+     "rms_density": 0.00938
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.6325e-06,
+     "diis_error": null,
+     "energy": -40.1166948,
+     "max_density": null,
+     "rms_density": 0.00568
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.77908e-06,
+     "diis_error": null,
+     "energy": -40.1166931,
+     "max_density": null,
+     "rms_density": 0.00138
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.94918e-06,
+     "diis_error": null,
+     "energy": -40.116695,
+     "max_density": null,
+     "rms_density": 0.000581
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.90567e-07,
+     "diis_error": null,
+     "energy": -40.1166957,
+     "max_density": null,
+     "rms_density": 0.000166
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.57008e-09,
+     "diis_error": null,
+     "energy": -40.1166957,
+     "max_density": null,
+     "rms_density": 7.72e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.15012e-09,
+     "diis_error": null,
+     "energy": -40.1166957,
+     "max_density": null,
+     "rms_density": 1.76e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1166383,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1166,
+     "diis_error": null,
+     "energy": -40.1166368,
+     "max_density": null,
+     "rms_density": 0.00658
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.23007e-06,
+     "diis_error": null,
+     "energy": -40.116638,
+     "max_density": null,
+     "rms_density": 0.00388
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.09519e-07,
+     "diis_error": null,
+     "energy": -40.1166375,
+     "max_density": null,
+     "rms_density": 0.000793
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.3223e-07,
+     "diis_error": null,
+     "energy": -40.1166383,
+     "max_density": null,
+     "rms_density": 0.000224
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.79541e-08,
+     "diis_error": null,
+     "energy": -40.1166383,
+     "max_density": null,
+     "rms_density": 0.000123
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.90665e-09,
+     "diis_error": null,
+     "energy": -40.1166383,
+     "max_density": null,
+     "rms_density": 4.8e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.18828e-09,
+     "diis_error": null,
+     "energy": -40.1166383,
+     "max_density": null,
+     "rms_density": 1.25e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1167148,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1167,
+     "diis_error": null,
+     "energy": -40.1167109,
+     "max_density": null,
+     "rms_density": 0.00811
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.26846e-06,
+     "diis_error": null,
+     "energy": -40.1167141,
+     "max_density": null,
+     "rms_density": 0.00476
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.06116e-06,
+     "diis_error": null,
+     "energy": -40.1167131,
+     "max_density": null,
+     "rms_density": 0.00112
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.5323e-06,
+     "diis_error": null,
+     "energy": -40.1167146,
+     "max_density": null,
+     "rms_density": 0.000353
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.27866e-07,
+     "diis_error": null,
+     "energy": -40.1167147,
+     "max_density": null,
+     "rms_density": 0.000149
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.14315e-09,
+     "diis_error": null,
+     "energy": -40.1167147,
+     "max_density": null,
+     "rms_density": 6.71e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.09747e-09,
+     "diis_error": null,
+     "energy": -40.1167148,
+     "max_density": null,
+     "rms_density": 1.54e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.116928,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1169,
+     "diis_error": null,
+     "energy": -40.1169235,
+     "max_density": null,
+     "rms_density": 0.00955
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.65951e-06,
+     "diis_error": null,
+     "energy": -40.1169272,
+     "max_density": null,
+     "rms_density": 0.00559
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.66642e-06,
+     "diis_error": null,
+     "energy": -40.1169255,
+     "max_density": null,
+     "rms_density": 0.00123
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.27797e-06,
+     "diis_error": null,
+     "energy": -40.1169278,
+     "max_density": null,
+     "rms_density": 0.000405
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.85677e-07,
+     "diis_error": null,
+     "energy": -40.116928,
+     "max_density": null,
+     "rms_density": 0.000167
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.60966e-10,
+     "diis_error": null,
+     "energy": -40.116928,
+     "max_density": null,
+     "rms_density": 6.26e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.01991e-09,
+     "diis_error": null,
+     "energy": -40.116928,
+     "max_density": null,
+     "rms_density": 1.48e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1171544,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1172,
+     "diis_error": null,
+     "energy": -40.1171522,
+     "max_density": null,
+     "rms_density": 0.00772
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.75023e-06,
+     "diis_error": null,
+     "energy": -40.1171539,
+     "max_density": null,
+     "rms_density": 0.00456
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.23715e-06,
+     "diis_error": null,
+     "energy": -40.1171527,
+     "max_density": null,
+     "rms_density": 0.000938
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.65771e-06,
+     "diis_error": null,
+     "energy": -40.1171543,
+     "max_density": null,
+     "rms_density": 0.000272
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.96638e-08,
+     "diis_error": null,
+     "energy": -40.1171544,
+     "max_density": null,
+     "rms_density": 0.000134
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.64005e-09,
+     "diis_error": null,
+     "energy": -40.1171544,
+     "max_density": null,
+     "rms_density": 5.28e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.02131e-09,
+     "diis_error": null,
+     "energy": -40.1171544,
+     "max_density": null,
+     "rms_density": 1.06e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1180688,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1181,
+     "diis_error": null,
+     "energy": -40.1180678,
+     "max_density": null,
+     "rms_density": 0.00425
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.67621e-07,
+     "diis_error": null,
+     "energy": -40.1180686,
+     "max_density": null,
+     "rms_density": 0.00255
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.10126e-07,
+     "diis_error": null,
+     "energy": -40.1180681,
+     "max_density": null,
+     "rms_density": 0.000652
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.11628e-07,
+     "diis_error": null,
+     "energy": -40.1180688,
+     "max_density": null,
+     "rms_density": 0.000142
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.33482e-08,
+     "diis_error": null,
+     "energy": -40.1180688,
+     "max_density": null,
+     "rms_density": 7.64e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.8845e-09,
+     "diis_error": null,
+     "energy": -40.1180688,
+     "max_density": null,
+     "rms_density": 3.56e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1183289,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1183,
+     "diis_error": null,
+     "energy": -40.1183276,
+     "max_density": null,
+     "rms_density": 0.00525
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.07831e-06,
+     "diis_error": null,
+     "energy": -40.1183287,
+     "max_density": null,
+     "rms_density": 0.0031
+    },
+    {
+     "damping": null,
+     "delta_energy": 4.17929e-07,
+     "diis_error": null,
+     "energy": -40.1183283,
+     "max_density": null,
+     "rms_density": 0.000617
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.07625e-07,
+     "diis_error": null,
+     "energy": -40.1183289,
+     "max_density": null,
+     "rms_density": 0.000171
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.70881e-08,
+     "diis_error": null,
+     "energy": -40.1183289,
+     "max_density": null,
+     "rms_density": 8.47e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.51369e-09,
+     "diis_error": null,
+     "energy": -40.1183289,
+     "max_density": null,
+     "rms_density": 4.21e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1186392,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1186,
+     "diis_error": null,
+     "energy": -40.1186375,
+     "max_density": null,
+     "rms_density": 0.00731
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.31242e-06,
+     "diis_error": null,
+     "energy": -40.1186388,
+     "max_density": null,
+     "rms_density": 0.00429
+    },
+    {
+     "damping": null,
+     "delta_energy": 7.20534e-07,
+     "diis_error": null,
+     "energy": -40.1186381,
+     "max_density": null,
+     "rms_density": 0.000839
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.06787e-06,
+     "diis_error": null,
+     "energy": -40.1186392,
+     "max_density": null,
+     "rms_density": 0.000211
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.43614e-08,
+     "diis_error": null,
+     "energy": -40.1186392,
+     "max_density": null,
+     "rms_density": 0.000108
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.98086e-09,
+     "diis_error": null,
+     "energy": -40.1186392,
+     "max_density": null,
+     "rms_density": 4.54e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.12861e-10,
+     "diis_error": null,
+     "energy": -40.1186392,
+     "max_density": null,
+     "rms_density": 1.1e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1184074,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1184,
+     "diis_error": null,
+     "energy": -40.1184067,
+     "max_density": null,
+     "rms_density": 0.00473
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.82668e-07,
+     "diis_error": null,
+     "energy": -40.1184072,
+     "max_density": null,
+     "rms_density": 0.00277
+    },
+    {
+     "damping": null,
+     "delta_energy": 8.26756e-07,
+     "diis_error": null,
+     "energy": -40.1184064,
+     "max_density": null,
+     "rms_density": 0.000802
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.05631e-06,
+     "diis_error": null,
+     "energy": -40.1184074,
+     "max_density": null,
+     "rms_density": 0.00012
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.1401e-09,
+     "diis_error": null,
+     "energy": -40.1184074,
+     "max_density": null,
+     "rms_density": 6.26e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.3722e-10,
+     "diis_error": null,
+     "energy": -40.1184074,
+     "max_density": null,
+     "rms_density": 2.74e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1176615,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1177,
+     "diis_error": null,
+     "energy": -40.1176567,
+     "max_density": null,
+     "rms_density": 0.013
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.26805e-06,
+     "diis_error": null,
+     "energy": -40.1176599,
+     "max_density": null,
+     "rms_density": 0.00762
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.46752e-06,
+     "diis_error": null,
+     "energy": -40.1176545,
+     "max_density": null,
+     "rms_density": 0.00212
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.00881e-06,
+     "diis_error": null,
+     "energy": -40.1176615,
+     "max_density": null,
+     "rms_density": 0.000313
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.13757e-08,
+     "diis_error": null,
+     "energy": -40.1176615,
+     "max_density": null,
+     "rms_density": 0.000163
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.60915e-09,
+     "diis_error": null,
+     "energy": -40.1176615,
+     "max_density": null,
+     "rms_density": 7.27e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.58374e-09,
+     "diis_error": null,
+     "energy": -40.1176615,
+     "max_density": null,
+     "rms_density": 1.8e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1148024,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1148,
+     "diis_error": null,
+     "energy": -40.1147967,
+     "max_density": null,
+     "rms_density": 0.0133
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.0555e-06,
+     "diis_error": null,
+     "energy": -40.1148008,
+     "max_density": null,
+     "rms_density": 0.00776
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.28461e-06,
+     "diis_error": null,
+     "energy": -40.1147955,
+     "max_density": null,
+     "rms_density": 0.00217
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.86581e-06,
+     "diis_error": null,
+     "energy": -40.1148024,
+     "max_density": null,
+     "rms_density": 0.000345
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.89179e-08,
+     "diis_error": null,
+     "energy": -40.1148024,
+     "max_density": null,
+     "rms_density": 0.000185
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.72773e-09,
+     "diis_error": null,
+     "energy": -40.1148024,
+     "max_density": null,
+     "rms_density": 8.71e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.16101e-09,
+     "diis_error": null,
+     "energy": -40.1148024,
+     "max_density": null,
+     "rms_density": 1.61e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1185411,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1185,
+     "diis_error": null,
+     "energy": -40.1185368,
+     "max_density": null,
+     "rms_density": 0.00971
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.30532e-06,
+     "diis_error": null,
+     "energy": -40.1185401,
+     "max_density": null,
+     "rms_density": 0.00568
+    },
+    {
+     "damping": null,
+     "delta_energy": 2.27923e-06,
+     "diis_error": null,
+     "energy": -40.1185378,
+     "max_density": null,
+     "rms_density": 0.00156
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.18264e-06,
+     "diis_error": null,
+     "energy": -40.118541,
+     "max_density": null,
+     "rms_density": 0.000296
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.99046e-08,
+     "diis_error": null,
+     "energy": -40.118541,
+     "max_density": null,
+     "rms_density": 0.000159
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.68336e-09,
+     "diis_error": null,
+     "energy": -40.1185411,
+     "max_density": null,
+     "rms_density": 7.67e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.66774e-09,
+     "diis_error": null,
+     "energy": -40.1185411,
+     "max_density": null,
+     "rms_density": 1.17e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1183699,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1184,
+     "diis_error": null,
+     "energy": -40.1183693,
+     "max_density": null,
+     "rms_density": 0.0023
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.17427e-07,
+     "diis_error": null,
+     "energy": -40.1183698,
+     "max_density": null,
+     "rms_density": 0.00136
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.95149e-07,
+     "diis_error": null,
+     "energy": -40.1183696,
+     "max_density": null,
+     "rms_density": 0.000508
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.60738e-07,
+     "diis_error": null,
+     "energy": -40.1183698,
+     "max_density": null,
+     "rms_density": 0.000116
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.72422e-08,
+     "diis_error": null,
+     "energy": -40.1183699,
+     "max_density": null,
+     "rms_density": 3.11e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.20012e-10,
+     "diis_error": null,
+     "energy": -40.1183699,
+     "max_density": null,
+     "rms_density": 1.81e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1186917,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1187,
+     "diis_error": null,
+     "energy": -40.1186915,
+     "max_density": null,
+     "rms_density": 0.002
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.64019e-07,
+     "diis_error": null,
+     "energy": -40.1186917,
+     "max_density": null,
+     "rms_density": 0.00118
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.01627e-07,
+     "diis_error": null,
+     "energy": -40.1186916,
+     "max_density": null,
+     "rms_density": 0.000273
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.28328e-07,
+     "diis_error": null,
+     "energy": -40.1186917,
+     "max_density": null,
+     "rms_density": 6.06e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.98261e-09,
+     "diis_error": null,
+     "energy": -40.1186917,
+     "max_density": null,
+     "rms_density": 2.65e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1185576,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1186,
+     "diis_error": null,
+     "energy": -40.1185551,
+     "max_density": null,
+     "rms_density": 0.00867
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.06825e-06,
+     "diis_error": null,
+     "energy": -40.1185571,
+     "max_density": null,
+     "rms_density": 0.0051
+    },
+    {
+     "damping": null,
+     "delta_energy": 7.99277e-07,
+     "diis_error": null,
+     "energy": -40.1185563,
+     "max_density": null,
+     "rms_density": 0.000802
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.14718e-06,
+     "diis_error": null,
+     "energy": -40.1185575,
+     "max_density": null,
+     "rms_density": 0.000279
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.18607e-07,
+     "diis_error": null,
+     "energy": -40.1185576,
+     "max_density": null,
+     "rms_density": 0.000128
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.95716e-09,
+     "diis_error": null,
+     "energy": -40.1185576,
+     "max_density": null,
+     "rms_density": 5.8e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.0317e-09,
+     "diis_error": null,
+     "energy": -40.1185576,
+     "max_density": null,
+     "rms_density": 1.08e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1183757,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1184,
+     "diis_error": null,
+     "energy": -40.1183754,
+     "max_density": null,
+     "rms_density": 0.00283
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.69082e-07,
+     "diis_error": null,
+     "energy": -40.1183756,
+     "max_density": null,
+     "rms_density": 0.00167
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.52306e-07,
+     "diis_error": null,
+     "energy": -40.1183754,
+     "max_density": null,
+     "rms_density": 0.000364
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.19722e-07,
+     "diis_error": null,
+     "energy": -40.1183757,
+     "max_density": null,
+     "rms_density": 8.58e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.19466e-09,
+     "diis_error": null,
+     "energy": -40.1183757,
+     "max_density": null,
+     "rms_density": 4.61e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.117914,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1179,
+     "diis_error": null,
+     "energy": -40.117912,
+     "max_density": null,
+     "rms_density": 0.00885
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.33405e-06,
+     "diis_error": null,
+     "energy": -40.1179133,
+     "max_density": null,
+     "rms_density": 0.00522
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.19949e-06,
+     "diis_error": null,
+     "energy": -40.1179121,
+     "max_density": null,
+     "rms_density": 0.00103
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.84816e-06,
+     "diis_error": null,
+     "energy": -40.1179139,
+     "max_density": null,
+     "rms_density": 0.000266
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.34244e-08,
+     "diis_error": null,
+     "energy": -40.117914,
+     "max_density": null,
+     "rms_density": 0.000145
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.36582e-09,
+     "diis_error": null,
+     "energy": -40.117914,
+     "max_density": null,
+     "rms_density": 3.23e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.38108e-10,
+     "diis_error": null,
+     "energy": -40.117914,
+     "max_density": null,
+     "rms_density": 1.14e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1189468,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1189,
+     "diis_error": null,
+     "energy": -40.1189465,
+     "max_density": null,
+     "rms_density": 0.00157
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.73109e-07,
+     "diis_error": null,
+     "energy": -40.1189468,
+     "max_density": null,
+     "rms_density": 0.000935
+    },
+    {
+     "damping": null,
+     "delta_energy": 6.39308e-08,
+     "diis_error": null,
+     "energy": -40.1189467,
+     "max_density": null,
+     "rms_density": 0.000312
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.026e-07,
+     "diis_error": null,
+     "energy": -40.1189468,
+     "max_density": null,
+     "rms_density": 6.03e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.69822e-09,
+     "diis_error": null,
+     "energy": -40.1189468,
+     "max_density": null,
+     "rms_density": 2.9e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1199562,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.12,
+     "diis_error": null,
+     "energy": -40.1199557,
+     "max_density": null,
+     "rms_density": 0.00381
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.59688e-07,
+     "diis_error": null,
+     "energy": -40.1199561,
+     "max_density": null,
+     "rms_density": 0.00225
+    },
+    {
+     "damping": null,
+     "delta_energy": 2.43629e-07,
+     "diis_error": null,
+     "energy": -40.1199559,
+     "max_density": null,
+     "rms_density": 0.000452
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.2637e-07,
+     "diis_error": null,
+     "energy": -40.1199562,
+     "max_density": null,
+     "rms_density": 7.72e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.45784e-09,
+     "diis_error": null,
+     "energy": -40.1199562,
+     "max_density": null,
+     "rms_density": 4.16e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1197432,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1197,
+     "diis_error": null,
+     "energy": -40.1197431,
+     "max_density": null,
+     "rms_density": 0.00173
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.24421e-08,
+     "diis_error": null,
+     "energy": -40.1197432,
+     "max_density": null,
+     "rms_density": 0.00102
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.97569e-09,
+     "diis_error": null,
+     "energy": -40.1197432,
+     "max_density": null,
+     "rms_density": 9.54e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.15832e-08,
+     "diis_error": null,
+     "energy": -40.1197432,
+     "max_density": null,
+     "rms_density": 3.78e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1184913,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1185,
+     "diis_error": null,
+     "energy": -40.1184906,
+     "max_density": null,
+     "rms_density": 0.00602
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.66912e-07,
+     "diis_error": null,
+     "energy": -40.1184912,
+     "max_density": null,
+     "rms_density": 0.00355
+    },
+    {
+     "damping": null,
+     "delta_energy": 2.57331e-07,
+     "diis_error": null,
+     "energy": -40.1184909,
+     "max_density": null,
+     "rms_density": 0.000474
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.57674e-07,
+     "diis_error": null,
+     "energy": -40.1184913,
+     "max_density": null,
+     "rms_density": 0.00015
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.32383e-08,
+     "diis_error": null,
+     "energy": -40.1184913,
+     "max_density": null,
+     "rms_density": 6.2e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.87557e-10,
+     "diis_error": null,
+     "energy": -40.1184913,
+     "max_density": null,
+     "rms_density": 2.2e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1183332,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1183,
+     "diis_error": null,
+     "energy": -40.1183331,
+     "max_density": null,
+     "rms_density": 0.00232
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.26316e-07,
+     "diis_error": null,
+     "energy": -40.1183332,
+     "max_density": null,
+     "rms_density": 0.00138
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.67978e-07,
+     "diis_error": null,
+     "energy": -40.118333,
+     "max_density": null,
+     "rms_density": 0.000372
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.15928e-07,
+     "diis_error": null,
+     "energy": -40.1183332,
+     "max_density": null,
+     "rms_density": 6.76e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.6198e-09,
+     "diis_error": null,
+     "energy": -40.1183332,
+     "max_density": null,
+     "rms_density": 3.25e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1186263,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1186,
+     "diis_error": null,
+     "energy": -40.1186257,
+     "max_density": null,
+     "rms_density": 0.00454
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.06138e-07,
+     "diis_error": null,
+     "energy": -40.1186261,
+     "max_density": null,
+     "rms_density": 0.00269
+    },
+    {
+     "damping": null,
+     "delta_energy": 5.90913e-07,
+     "diis_error": null,
+     "energy": -40.1186255,
+     "max_density": null,
+     "rms_density": 0.000714
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.70254e-07,
+     "diis_error": null,
+     "energy": -40.1186263,
+     "max_density": null,
+     "rms_density": 0.000126
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.91143e-09,
+     "diis_error": null,
+     "energy": -40.1186263,
+     "max_density": null,
+     "rms_density": 6.52e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.14561e-10,
+     "diis_error": null,
+     "energy": -40.1186263,
+     "max_density": null,
+     "rms_density": 2.61e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1176587,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1177,
+     "diis_error": null,
+     "energy": -40.1176577,
+     "max_density": null,
+     "rms_density": 0.006
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.46246e-07,
+     "diis_error": null,
+     "energy": -40.1176584,
+     "max_density": null,
+     "rms_density": 0.00355
+    },
+    {
+     "damping": null,
+     "delta_energy": 6.65803e-07,
+     "diis_error": null,
+     "energy": -40.1176578,
+     "max_density": null,
+     "rms_density": 0.000813
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.23219e-07,
+     "diis_error": null,
+     "energy": -40.1176587,
+     "max_density": null,
+     "rms_density": 0.000184
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.5307e-08,
+     "diis_error": null,
+     "energy": -40.1176587,
+     "max_density": null,
+     "rms_density": 8.94e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.01013e-09,
+     "diis_error": null,
+     "energy": -40.1176587,
+     "max_density": null,
+     "rms_density": 3.49e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1190492,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.119,
+     "diis_error": null,
+     "energy": -40.1190486,
+     "max_density": null,
+     "rms_density": 0.00335
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.4019e-07,
+     "diis_error": null,
+     "energy": -40.1190492,
+     "max_density": null,
+     "rms_density": 0.00194
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.87683e-09,
+     "diis_error": null,
+     "energy": -40.1190492,
+     "max_density": null,
+     "rms_density": 0.000295
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.84613e-08,
+     "diis_error": null,
+     "energy": -40.1190492,
+     "max_density": null,
+     "rms_density": 0.000106
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.5972e-09,
+     "diis_error": null,
+     "energy": -40.1190492,
+     "max_density": null,
+     "rms_density": 5.37e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.08349e-10,
+     "diis_error": null,
+     "energy": -40.1190492,
+     "max_density": null,
+     "rms_density": 1.47e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1188632,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1189,
+     "diis_error": null,
+     "energy": -40.1188631,
+     "max_density": null,
+     "rms_density": 0.00171
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.73429e-08,
+     "diis_error": null,
+     "energy": -40.1188632,
+     "max_density": null,
+     "rms_density": 0.00103
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.65961e-08,
+     "diis_error": null,
+     "energy": -40.1188632,
+     "max_density": null,
+     "rms_density": 0.000135
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.89689e-08,
+     "diis_error": null,
+     "energy": -40.1188632,
+     "max_density": null,
+     "rms_density": 4.56e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.03885e-09,
+     "diis_error": null,
+     "energy": -40.1188632,
+     "max_density": null,
+     "rms_density": 2.1e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1173707,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1174,
+     "diis_error": null,
+     "energy": -40.1173693,
+     "max_density": null,
+     "rms_density": 0.00706
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.12826e-06,
+     "diis_error": null,
+     "energy": -40.1173705,
+     "max_density": null,
+     "rms_density": 0.0042
+    },
+    {
+     "damping": null,
+     "delta_energy": 4.24134e-08,
+     "diis_error": null,
+     "energy": -40.1173704,
+     "max_density": null,
+     "rms_density": 0.000505
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.66583e-07,
+     "diis_error": null,
+     "energy": -40.1173707,
+     "max_density": null,
+     "rms_density": 0.000213
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.23246e-08,
+     "diis_error": null,
+     "energy": -40.1173707,
+     "max_density": null,
+     "rms_density": 0.000107
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.08203e-09,
+     "diis_error": null,
+     "energy": -40.1173707,
+     "max_density": null,
+     "rms_density": 3.68e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.53115e-10,
+     "diis_error": null,
+     "energy": -40.1173707,
+     "max_density": null,
+     "rms_density": 1.37e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1191833,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1192,
+     "diis_error": null,
+     "energy": -40.1191822,
+     "max_density": null,
+     "rms_density": 0.00398
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.62158e-07,
+     "diis_error": null,
+     "energy": -40.1191832,
+     "max_density": null,
+     "rms_density": 0.00231
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.76528e-07,
+     "diis_error": null,
+     "energy": -40.119183,
+     "max_density": null,
+     "rms_density": 0.000591
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.92003e-07,
+     "diis_error": null,
+     "energy": -40.1191833,
+     "max_density": null,
+     "rms_density": 0.000184
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.04936e-08,
+     "diis_error": null,
+     "energy": -40.1191833,
+     "max_density": null,
+     "rms_density": 7.38e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.13722e-10,
+     "diis_error": null,
+     "energy": -40.1191833,
+     "max_density": null,
+     "rms_density": 2.97e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.119072,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1191,
+     "diis_error": null,
+     "energy": -40.1190719,
+     "max_density": null,
+     "rms_density": 0.00191
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.19881e-08,
+     "diis_error": null,
+     "energy": -40.119072,
+     "max_density": null,
+     "rms_density": 0.00113
+    },
+    {
+     "damping": null,
+     "delta_energy": 7.11273e-08,
+     "diis_error": null,
+     "energy": -40.1190719,
+     "max_density": null,
+     "rms_density": 0.000242
+    },
+    {
+     "damping": null,
+     "delta_energy": -9.40938e-08,
+     "diis_error": null,
+     "energy": -40.119072,
+     "max_density": null,
+     "rms_density": 4.5e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -7.63386e-10,
+     "diis_error": null,
+     "energy": -40.119072,
+     "max_density": null,
+     "rms_density": 2.52e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1190045,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.119,
+     "diis_error": null,
+     "energy": -40.1190044,
+     "max_density": null,
+     "rms_density": 0.00224
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.46261e-08,
+     "diis_error": null,
+     "energy": -40.1190044,
+     "max_density": null,
+     "rms_density": 0.00134
+    },
+    {
+     "damping": null,
+     "delta_energy": 2.64215e-08,
+     "diis_error": null,
+     "energy": -40.1190044,
+     "max_density": null,
+     "rms_density": 0.000159
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.62686e-08,
+     "diis_error": null,
+     "energy": -40.1190045,
+     "max_density": null,
+     "rms_density": 5.54e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.18587e-09,
+     "diis_error": null,
+     "energy": -40.1190045,
+     "max_density": null,
+     "rms_density": 2.84e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1177167,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1177,
+     "diis_error": null,
+     "energy": -40.1177159,
+     "max_density": null,
+     "rms_density": 0.00627
+    },
+    {
+     "damping": null,
+     "delta_energy": -6.03553e-07,
+     "diis_error": null,
+     "energy": -40.1177165,
+     "max_density": null,
+     "rms_density": 0.00375
+    },
+    {
+     "damping": null,
+     "delta_energy": 1.02439e-07,
+     "diis_error": null,
+     "energy": -40.1177164,
+     "max_density": null,
+     "rms_density": 0.000415
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.57603e-07,
+     "diis_error": null,
+     "energy": -40.1177167,
+     "max_density": null,
+     "rms_density": 0.000174
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.22142e-08,
+     "diis_error": null,
+     "energy": -40.1177167,
+     "max_density": null,
+     "rms_density": 8.87e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.45725e-09,
+     "diis_error": null,
+     "energy": -40.1177167,
+     "max_density": null,
+     "rms_density": 2.79e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1189104,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1189,
+     "diis_error": null,
+     "energy": -40.11891,
+     "max_density": null,
+     "rms_density": 0.00215
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.54283e-07,
+     "diis_error": null,
+     "energy": -40.1189104,
+     "max_density": null,
+     "rms_density": 0.00124
+    },
+    {
+     "damping": null,
+     "delta_energy": 3.27878e-09,
+     "diis_error": null,
+     "energy": -40.1189104,
+     "max_density": null,
+     "rms_density": 0.000285
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.45987e-08,
+     "diis_error": null,
+     "energy": -40.1189104,
+     "max_density": null,
+     "rms_density": 9.87e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -8.80928e-09,
+     "diis_error": null,
+     "energy": -40.1189104,
+     "max_density": null,
+     "rms_density": 4.43e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": null,
+   "dispersion": null,
+   "energy": -40.1190796,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1191,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 0.00111
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.82694e-08,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 0.000659
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.13095e-10,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 5.74e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.3706e-09,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 2.52e-05
+    }
+   ],
+   "n_iterations": null,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -40.1190796,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -40.1191,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 1.38e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.66303e-11,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 8.79e-06
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.48166e-11,
+     "diis_error": null,
+     "energy": -40.1190796,
+     "max_density": null,
+     "rms_density": 5.37e-06
+    }
+   ],
+   "n_iterations": 3,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 5.344,
+  "n_procs": null,
+  "wall_seconds": 0.181
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

@@ -1,0 +1,595 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": -74.937739,
+  "enthalpy_correction": 0.028162,
+  "extra": {
+   "e_plus_thermal": -74.938683,
+   "e_plus_zpe": -74.941516
+  },
+  "gcp": null,
+  "gibbs": -74.959254,
+  "gibbs_correction": 0.006648,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -74.9659011806,
+  "solvation": null,
+  "thermal_energy_correction": 0.027218,
+  "total": -74.9659011806,
+  "zero_point": 0.024385
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     0.0,
+     0.0,
+     0.119159
+    ],
+    [
+     -0.0,
+     0.790649,
+     -0.476637
+    ],
+    [
+     -0.0,
+     -0.790649,
+     -0.476637
+    ]
+   ],
+   "energy": -74.9643287914,
+   "label": "standard",
+   "step": null
+  },
+  {
+   "coordinates": [
+    [
+     -0.0,
+     0.0,
+     0.132184
+    ],
+    [
+     0.0,
+     0.730802,
+     -0.528736
+    ],
+    [
+     -0.0,
+     -0.730802,
+     -0.528736
+    ]
+   ],
+   "energy": -74.9649723283,
+   "label": "standard",
+   "step": null
+  },
+  {
+   "coordinates": [
+    [
+     -0.0,
+     0.0,
+     0.127287
+    ],
+    [
+     0.0,
+     0.758387,
+     -0.50915
+    ],
+    [
+     -0.0,
+     -0.758387,
+     -0.50915
+    ]
+   ],
+   "energy": -74.965900301,
+   "label": "standard",
+   "step": null
+  },
+  {
+   "coordinates": [
+    [
+     -0.0,
+     0.0,
+     0.127131
+    ],
+    [
+     -0.0,
+     0.758039,
+     -0.508525
+    ],
+    [
+     -0.0,
+     -0.758039,
+     -0.508525
+    ]
+   ],
+   "energy": -74.9659011806,
+   "label": "standard",
+   "step": null
+  },
+  {
+   "coordinates": [
+    [
+     -0.0,
+     0.0,
+     0.127131
+    ],
+    [
+     0.0,
+     0.758039,
+     -0.508525
+    ],
+    [
+     -0.0,
+     -0.758039,
+     -0.508525
+    ]
+   ],
+   "energy": -74.9659011806,
+   "label": "standard",
+   "step": null
+  },
+  {
+   "coordinates": [
+    [
+     -0.0,
+     0.0,
+     0.127131
+    ],
+    [
+     0.0,
+     0.758039,
+     -0.508525
+    ],
+    [
+     -0.0,
+     -0.758039,
+     -0.508525
+    ]
+   ],
+   "energy": -74.9659011806,
+   "label": "standard",
+   "step": null
+  }
+ ],
+ "gradient": [
+  [
+   0.000166866,
+   -0.0,
+   0.000125743
+  ],
+  [
+   -2.4915e-05,
+   0.0,
+   -0.000140528
+  ],
+  [
+   -0.000141952,
+   0.0,
+   1.4785e-05
+  ]
+ ],
+ "input": {
+  "aux_basis": [],
+  "basis": "sto-3g",
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "additional_routes": [
+    "#N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RHF/STO-3G Freq"
+   ],
+   "isotropic_polarizability_bohr3": 2.7,
+   "scf_label": "RHF",
+   "stoichiometry": "H2O"
+  },
+  "functional": null,
+  "job_types": [
+   "optimization",
+   "frequency"
+  ],
+  "memory_mb": null,
+  "method": "HF",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "# hf/sto-3g opt freq pop=nbo",
+  "solvation": "Check",
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   8,
+   1,
+   1
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 7,
+  "n_electrons": 10,
+  "point_group": "C2V",
+  "symbols": [
+   "O",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   -0.0,
+   -0.0,
+   -1.7093
+  ],
+  "dipole_magnitude": 1.7093,
+  "polarizability": null,
+  "quadrupole": [
+   -6.1255,
+   -4.4853,
+   -5.3334,
+   0.0,
+   0.0,
+   -0.0
+  ]
+ },
+ "nmr": [],
+ "optimization": {
+  "converged": true,
+  "criteria": {
+   "maximum_displacement": 0.0018,
+   "maximum_force": 0.00045,
+   "rms_displacement": 0.0012,
+   "rms_force": 0.0003
+  },
+  "n_steps": 5,
+  "steps": [
+   {
+    "converged_flags": {
+     "maximum_displacement": false,
+     "maximum_force": false,
+     "rms_displacement": false,
+     "rms_force": false
+    },
+    "delta_energy": null,
+    "energy": -74.9643287914,
+    "max_gradient": 0.029587,
+    "max_step": 0.115009,
+    "rms_gradient": 0.017457,
+    "rms_step": 0.109053,
+    "step": 1
+   },
+   {
+    "converged_flags": {
+     "maximum_displacement": false,
+     "maximum_force": false,
+     "rms_displacement": false,
+     "rms_force": false
+    },
+    "delta_energy": -0.0006435368999859747,
+    "energy": -74.9649723283,
+    "max_gradient": 0.023547,
+    "max_step": 0.050913,
+    "rms_gradient": 0.015036,
+    "rms_step": 0.047825,
+    "step": 2
+   },
+   {
+    "converged_flags": {
+     "maximum_displacement": true,
+     "maximum_force": false,
+     "rms_displacement": true,
+     "rms_force": false
+    },
+    "delta_energy": -0.000927972700011992,
+    "energy": -74.965900301,
+    "max_gradient": 0.000734,
+    "max_step": 0.000822,
+    "rms_gradient": 0.000601,
+    "rms_step": 0.000879,
+    "step": 3
+   },
+   {
+    "converged_flags": {
+     "maximum_displacement": true,
+     "maximum_force": true,
+     "rms_displacement": true,
+     "rms_force": true
+    },
+    "delta_energy": -8.795999946187294e-07,
+    "energy": -74.9659011806,
+    "max_gradient": 0.000142,
+    "max_step": 0.000146,
+    "rms_gradient": 0.000117,
+    "rms_step": 0.000145,
+    "step": 4
+   },
+   {
+    "converged_flags": {
+     "maximum_displacement": true,
+     "maximum_force": true,
+     "rms_displacement": true,
+     "rms_force": true
+    },
+    "delta_energy": 0.0,
+    "energy": -74.9659011806,
+    "max_gradient": 0.000142,
+    "max_step": 0.000146,
+    "rms_gradient": 0.000117,
+    "rms_step": 0.000145,
+    "step": 5
+   }
+  ]
+ },
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -20.25155,
+    -1.2576,
+    -0.59393,
+    -0.45972,
+    -0.39262,
+    0.5819,
+    0.69284
+   ]
+  ],
+  "homo": [
+   4
+  ],
+  "homo_energy": [
+   -0.39262
+  ],
+  "indices": null,
+  "lumo_energy": [
+   0.5819
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.330652,
+    0.165326,
+    0.165326
+   ],
+   "method": "mulliken",
+   "spins": null
+  },
+  {
+   "charges": [
+    -0.169225,
+    0.084612,
+    0.084612
+   ],
+   "method": "apt",
+   "spins": null
+  },
+  {
+   "charges": [
+    -0.36599,
+    0.183,
+    0.183
+   ],
+   "method": "npa",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": "25-Dec-2016",
+  "name": "gaussian",
+  "revision": "ES64L-G16RevA.03",
+  "version": "16 RevA.03",
+  "version_tuple": [
+   16
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.9643287914,
+   "exchange_correlation": null,
+   "iterations": [],
+   "n_iterations": 7,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.9649723283,
+   "exchange_correlation": null,
+   "iterations": [],
+   "n_iterations": 7,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.965900301,
+   "exchange_correlation": null,
+   "iterations": [],
+   "n_iterations": 6,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.9659011806,
+   "exchange_correlation": null,
+   "iterations": [],
+   "n_iterations": 6,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.9659011806,
+   "exchange_correlation": null,
+   "iterations": [],
+   "n_iterations": 1,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 5.4,
+  "n_procs": null,
+  "wall_seconds": 4.5
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": {
+  "force_constants": [
+   2.9915,
+   10.6012,
+   12.2477
+  ],
+  "frequencies": [
+   2169.7613,
+   4141.3837,
+   4392.5759
+  ],
+  "ir_intensities": [
+   7.2483,
+   44.2724,
+   29.9428
+  ],
+  "n_imaginary": 0,
+  "normal_modes": [
+   [
+    [
+     -0.0,
+     -0.0,
+     -0.07
+    ],
+    [
+     0.0,
+     0.45,
+     0.54
+    ],
+    [
+     0.0,
+     -0.45,
+     0.54
+    ]
+   ],
+   [
+    [
+     0.0,
+     -0.0,
+     0.05
+    ],
+    [
+     0.0,
+     0.57,
+     -0.42
+    ],
+    [
+     -0.0,
+     -0.57,
+     -0.42
+    ]
+   ],
+   [
+    [
+     -0.0,
+     -0.07,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.54,
+     -0.45
+    ],
+    [
+     0.0,
+     0.54,
+     0.45
+    ]
+   ]
+  ],
+  "raman_activities": [
+   9.2632,
+   47.7989,
+   21.5409
+  ],
+  "reduced_masses": [
+   1.0785,
+   1.0491,
+   1.0774
+  ],
+  "symmetries": [
+   "A1",
+   "A1",
+   "B2"
+  ],
+  "thermochemistry": {
+   "enthalpy": -74.937739,
+   "enthalpy_correction": 0.028162,
+   "entropy": 7.215986669780018e-05,
+   "gibbs_correction": 0.006648,
+   "gibbs_free_energy": -74.959254,
+   "pressure": 1.0,
+   "rotational_constants_ghz": null,
+   "rotational_symmetry_number": 2,
+   "temperature": 298.15,
+   "thermal_energy_correction": 0.027218,
+   "zero_point_energy": 0.024385
+  }
+ }
+}

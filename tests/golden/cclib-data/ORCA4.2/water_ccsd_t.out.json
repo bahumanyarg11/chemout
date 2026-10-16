@@ -1,0 +1,246 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {
+   "correlation": -0.049982067
+  },
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -74.9635741,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -75.013556309605,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     1.784914,
+     1.262422,
+     0.511985
+    ],
+    [
+     2.648237,
+     1.072929,
+     0.131631
+    ],
+    [
+     1.183168,
+     1.256816,
+     -0.238835
+    ]
+   ],
+   "energy": -75.013556309605,
+   "label": "input",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": "STO-3G",
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "hamiltonian": "Hartree-Fock(GTOs)",
+   "hf_type": "RHF"
+  },
+  "functional": null,
+  "job_types": [
+   "energy"
+  ],
+  "memory_mb": null,
+  "method": "ccsd(t)",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "! ccsd(t) sto-3g noautostart\n\n*xyz 0 1\n  O      1.784914    1.262422    0.511985\n  H      2.648237    1.072929    0.131631\n  H      1.183168    1.256816   -0.238835\n*\n",
+  "solvation": null,
+  "title": "water_ccsd_t.inp",
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   8,
+   1,
+   1
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": null,
+  "n_electrons": 10,
+  "point_group": null,
+  "symbols": [
+   "O",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.35581908875527,
+   -0.26540916671066,
+   -1.53890040207785
+  ],
+  "dipole_magnitude": 1.60168,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": null,
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -20.242233,
+    -1.265747,
+    -0.615339,
+    -0.452291,
+    -0.390844,
+    0.600569,
+    0.736617
+   ]
+  ],
+  "homo": [
+   4
+  ],
+  "homo_energy": [
+   -0.390844
+  ],
+  "indices": null,
+  "lumo_energy": [
+   0.600569
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.329397,
+    0.164693,
+    0.164703
+   ],
+   "method": "mulliken",
+   "spins": null
+  },
+  {
+   "charges": [
+    -0.222996,
+    0.111495,
+    0.1115
+   ],
+   "method": "loewdin",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "orca",
+  "revision": null,
+  "version": "4.2.0",
+  "version_tuple": [
+   4,
+   2,
+   0
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -74.9635741,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": 0.0,
+     "diis_error": null,
+     "energy": -74.9043980748,
+     "max_density": 0.01858003,
+     "rms_density": 0.07435289
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.017941484567,
+     "diis_error": null,
+     "energy": -74.9223395594,
+     "max_density": 0.01591093,
+     "rms_density": 0.06240773
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.012663445047,
+     "diis_error": null,
+     "energy": -74.9350030044,
+     "max_density": 0.03818335,
+     "rms_density": 0.14873057
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.005654999422,
+     "diis_error": null,
+     "energy": -74.9406580038,
+     "max_density": 0.00244052,
+     "rms_density": 0.01233754
+    }
+   ],
+   "n_iterations": 6,
+   "nuclear_repulsion": 9.14681299,
+   "one_electron": -122.28764576,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": 38.17725867
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": null,
+  "n_procs": null,
+  "wall_seconds": 0.928
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

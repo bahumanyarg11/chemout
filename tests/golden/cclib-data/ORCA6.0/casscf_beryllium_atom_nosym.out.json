@@ -1,0 +1,237 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": null,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {},
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": null,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -14.616497008249,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [
+  {
+   "coordinates": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "energy": -14.616497008249,
+   "label": "input",
+   "step": null
+  }
+ ],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": "def2-QZVPP",
+  "charge": 0,
+  "dispersion": null,
+  "extra": {
+   "hamiltonian": "Hartree-Fock(GTOs)",
+   "hf_type": "CASSCF"
+  },
+  "functional": null,
+  "job_types": [
+   "energy"
+  ],
+  "memory_mb": null,
+  "method": "HF",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "! def2-qzvpp verytightscf noautostart nousesym\n\n%casscf\n nel 2\n norb 4\n end\n\n* xyz 0 1\nBe 0 0 0\n*\n",
+  "solvation": null,
+  "title": "casscf_beryllium_atom_nosym.in",
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   4
+  ],
+  "charge": 0,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 36,
+  "n_electrons": 4,
+  "point_group": null,
+  "symbols": [
+   "Be"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   0.0,
+   -0.0,
+   -0.0
+  ],
+  "dipole_magnitude": 0.0,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": null,
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -4.711845,
+    -0.277797,
+    0.112653,
+    0.112653,
+    0.112653,
+    0.127743,
+    0.15092,
+    0.15092,
+    0.15092,
+    0.274858,
+    0.274858,
+    0.274858,
+    0.274858,
+    0.274858,
+    0.681115,
+    0.767036,
+    0.767036,
+    0.767036,
+    1.118724,
+    1.118724,
+    1.118724,
+    1.118724,
+    1.118724,
+    1.17608,
+    1.17608,
+    1.17608,
+    1.17608,
+    1.17608,
+    1.17608,
+    1.17608,
+    3.007595,
+    10.933785,
+    10.933785,
+    10.933785,
+    11.951752,
+    65.244448
+   ]
+  ],
+  "homo": [
+   1
+  ],
+  "homo_energy": [
+   -0.277797
+  ],
+  "indices": null,
+  "lumo_energy": [
+   0.112653
+  ],
+  "n_basis": 36,
+  "occupations": [
+   [
+    2.0,
+    1.8038,
+    0.0654,
+    0.0654,
+    0.0654,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.0
+   ],
+   "method": "mulliken",
+   "spins": null
+  },
+  {
+   "charges": [
+    0.0
+   ],
+   "method": "loewdin",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "orca",
+  "revision": null,
+  "version": "6.0.0",
+  "version_tuple": [
+   6,
+   0,
+   0
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": null,
+  "n_procs": null,
+  "wall_seconds": 0.615
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}

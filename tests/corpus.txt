@@ -1,0 +1,3 @@
+# label<TAB>path (absolute, or relative to the repo root). In-repo entries are the self-contained test suite.
+cclib-data	tests/data/cclib-data
+xtb-generated	tests/data/xtb_generated

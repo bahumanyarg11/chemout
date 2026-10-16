@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chemout"
+version = "0.1.0"
+description = "Version-robust parsers for quantum-chemistry output files (ORCA 6, Gaussian 16, xTB) into one typed schema"
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+requires-python = ">=3.10"
+authors = [{ name = "Bahumanya R G" }]
+keywords = ["quantum chemistry", "ORCA", "Gaussian", "xtb", "parser", "cclib"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = ["numpy>=1.24", "pydantic>=2.5"]
+
+[project.optional-dependencies]
+hdf5 = ["h5py>=3.9"]
+cclib = ["cclib>=1.8"]
+dev = ["pytest>=7", "ruff>=0.4", "h5py>=3.9"]
+
+[project.scripts]
+chemout = "chemout.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/bahumanyarg11/chemout"
+
+[tool.setuptools.packages.find]
+include = ["chemout*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "W"]
+ignore = ["E741", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E501"]
+"scripts/*" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["corpus: tests that need the external cclib-data corpus"]

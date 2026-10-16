@@ -1,0 +1,334 @@
+{
+ "energies": {
+  "ccsd": null,
+  "ccsd_t": null,
+  "dispersion": -0.00300210662,
+  "enthalpy": null,
+  "enthalpy_correction": null,
+  "extra": {
+   "add_restraining": 0.0,
+   "anisotropic_es": 0.000816900407,
+   "anisotropic_xc": -0.000936860774,
+   "gelec": -0.117046971136,
+   "ghb": -0.00378313007,
+   "gradient_norm": 0.040090361721,
+   "gsasa": 0.004551224983,
+   "gshift": 0.001080759698,
+   "gsolv": -0.115198116525,
+   "homo_lumo_gap_eh": 0.1929991,
+   "homo_lumo_gap_ev": 5.25177238113,
+   "isotropic_es": 0.24049354741,
+   "repulsion": 0.115150394856,
+   "scc": -14.386594287118,
+   "total_charge": -1.0,
+   "total_w/o_gsasa/hb": -14.273292746873
+  },
+  "gcp": null,
+  "gibbs": null,
+  "gibbs_correction": null,
+  "mp2": null,
+  "mp2_correlation": null,
+  "scf": -14.386594287118,
+  "solvation": null,
+  "thermal_energy_correction": null,
+  "total": -14.271443892263,
+  "zero_point": null
+ },
+ "error_message": null,
+ "excited_states": [],
+ "geometries": [],
+ "gradient": null,
+ "input": {
+  "aux_basis": [],
+  "basis": null,
+  "charge": -1,
+  "dispersion": null,
+  "extra": {
+   "electronic_temperature_K": 300.0
+  },
+  "functional": null,
+  "job_types": [
+   "energy"
+  ],
+  "memory_mb": null,
+  "method": "GFN2-xTB",
+  "multiplicity": 1,
+  "nprocs": null,
+  "raw": "/Volumes/Seagate Expansion Drive/TOPRESEARCH/envs/xtb/bin/xtb ../acetate.xyz --chrg -1 --alpb water",
+  "solvation": "ALPB(water)",
+  "title": null,
+  "unrestricted": false
+ },
+ "molecule": {
+  "atomic_numbers": [
+   6,
+   6,
+   8,
+   8,
+   1,
+   1,
+   1
+  ],
+  "charge": -1,
+  "masses": null,
+  "multiplicity": 1,
+  "n_basis_functions": 19,
+  "n_electrons": 24,
+  "point_group": null,
+  "symbols": [
+   "C",
+   "C",
+   "O",
+   "O",
+   "H",
+   "H",
+   "H"
+  ]
+ },
+ "multipoles": {
+  "dipole": [
+   -4.755,
+   -0.018,
+   -0.0
+  ],
+  "dipole_magnitude": 12.086,
+  "polarizability": null,
+  "quadrupole": null
+ },
+ "nmr": [],
+ "optimization": null,
+ "orbitals": {
+  "complete": true,
+  "energies": [
+   [
+    -0.6606215,
+    -0.6478095,
+    -0.5979559,
+    -0.5462976,
+    -0.507146,
+    -0.4996793,
+    -0.4944142,
+    -0.4555789,
+    -0.452115,
+    -0.3866086,
+    -0.3646049,
+    -0.3623204,
+    -0.1693213,
+    0.1470253,
+    0.1856957,
+    0.1997588,
+    0.2287326,
+    0.4691271,
+    0.5595202
+   ]
+  ],
+  "homo": [
+   11
+  ],
+  "homo_energy": [
+   -0.3623204
+  ],
+  "indices": [
+   [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ]
+  ],
+  "lumo_energy": [
+   -0.1693213
+  ],
+  "n_basis": null,
+  "occupations": [
+   [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  ],
+  "symmetries": []
+ },
+ "populations": [
+  {
+   "charges": [
+    -0.139,
+    0.361,
+    -0.672,
+    -0.674,
+    0.036,
+    0.044,
+    0.044
+   ],
+   "method": "mulliken",
+   "spins": null
+  }
+ ],
+ "program": {
+  "date": null,
+  "name": "xtb",
+  "revision": "edcfbbe",
+  "version": "6.7.1",
+  "version_tuple": [
+   6,
+   7,
+   1
+  ]
+ },
+ "provenance": {
+  "chemout_version": "0.1.0",
+  "warnings": []
+ },
+ "scf_cycles": [
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -14.3865946,
+   "exchange_correlation": null,
+   "iterations": [
+    {
+     "damping": null,
+     "delta_energy": -14.3148,
+     "diis_error": null,
+     "energy": -14.3147575,
+     "max_density": null,
+     "rms_density": 0.625
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.0692606,
+     "diis_error": null,
+     "energy": -14.3840181,
+     "max_density": null,
+     "rms_density": 0.261
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.00157089,
+     "diis_error": null,
+     "energy": -14.385589,
+     "max_density": null,
+     "rms_density": 0.144
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000822549,
+     "diis_error": null,
+     "energy": -14.3864115,
+     "max_density": null,
+     "rms_density": 0.0251
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.000179086,
+     "diis_error": null,
+     "energy": -14.3865906,
+     "max_density": null,
+     "rms_density": 0.0118
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.88166e-06,
+     "diis_error": null,
+     "energy": -14.3865945,
+     "max_density": null,
+     "rms_density": 0.00125
+    },
+    {
+     "damping": null,
+     "delta_energy": 6.2051e-09,
+     "diis_error": null,
+     "energy": -14.3865945,
+     "max_density": null,
+     "rms_density": 0.000594
+    },
+    {
+     "damping": null,
+     "delta_energy": -5.35164e-08,
+     "diis_error": null,
+     "energy": -14.3865945,
+     "max_density": null,
+     "rms_density": 0.000111
+    },
+    {
+     "damping": null,
+     "delta_energy": -4.70637e-09,
+     "diis_error": null,
+     "energy": -14.3865945,
+     "max_density": null,
+     "rms_density": 3.29e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -3.63086e-10,
+     "diis_error": null,
+     "energy": -14.3865946,
+     "max_density": null,
+     "rms_density": 9.87e-06
+    }
+   ],
+   "n_iterations": 10,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": null,
+   "spin_squared_ideal": null,
+   "two_electron": null
+  }
+ ],
+ "schema_version": "1",
+ "termination": "normal",
+ "timing": {
+  "cpu_seconds": 0.005,
+  "n_procs": null,
+  "wall_seconds": 0.068
+ },
+ "units": {
+  "coordinates": "angstrom",
+  "dipole": "debye",
+  "energy": "hartree",
+  "entropy": "hartree/K",
+  "excitation_energy": "eV",
+  "frequency": "cm^-1",
+  "gradient": "hartree/bohr",
+  "ir_intensity": "km/mol",
+  "nmr_shielding": "ppm",
+  "orbital_energy": "hartree",
+  "pressure": "atm",
+  "spin_squared": "hbar^2",
+  "temperature": "K",
+  "time": "s",
+  "wavelength": "nm"
+ },
+ "vibrations": null
+}
