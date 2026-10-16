@@ -31,6 +31,7 @@ from ..schema import (
 from .base import Parser, floats_in, section, symbol_to_z, to_float, z_to_symbol
 
 _VERSION_RE = re.compile(r"Program Version\s+(\S+)")
+_SCF_HEADER_RE = re.compile(r"^\s*(ITER|Iteration)\s+Energy")
 _INPUT_LINE_RE = re.compile(r"^\|\s*\d+>\s?(.*)$")
 _RUNTIME_RE = re.compile(r"(\d+)\s+days?\s+(\d+)\s+hours?\s+(\d+)\s+minutes?\s+(\d+)\s+seconds?\s+(\d+)\s+msec")
 _STATE_RE = re.compile(
@@ -474,17 +475,15 @@ class OrcaParser(Parser):
         self.calc.geometries.append(Geometry(coordinates=coords, label=label, step=cyc or None))
 
     # ------------------------------------------------------------------- SCF
-    @section(
-        lambda s: (
-            s.startswith("Iteration    Energy")
-            or s.startswith("ITER       Energy")
-            or s.startswith("  ITER       Energy")
-        )
-    )
+    @section(lambda s: _SCF_HEADER_RE.match(s) is not None)
     def _scf_table(self, line: str) -> None:
         lines = self.lines
         lines.next()
-        if not self.state["scf_open"] or not self.calc.scf_cycles:
+        # A new SCF starts unless the current cycle is still running (DIIS -> SOSCF prints a second header
+        # inside one SCF). Geometry cycles without a TOTAL SCF ENERGY block leave the cycle "open" but
+        # already converged, so the convergence flag decides, not the open flag.
+        cur_cycle = self.calc.scf_cycles[-1] if self.calc.scf_cycles else None
+        if cur_cycle is None or not self.state["scf_open"] or cur_cycle.converged is not None:
             self.calc.scf_cycles.append(SCFCycle())
             self.state["scf_open"] = True
         cyc = self.calc.scf_cycles[-1]
@@ -501,31 +500,70 @@ class OrcaParser(Parser):
                     break
                 cyc.iterations.append(it)
                 lines.next()
+            elif _SCF_HEADER_RE.match(cur):
+                lines.next()  # continuation header (SOSCF switch)
             elif not cur.strip() or cur.strip().startswith(("***", "---", "*")) or "S-O-S-C-F" in cur:
                 if "CONVERGED" in cur or "NOT CONVERGED" in cur:
                     break
                 lines.next()
-                if lines.current.startswith("Iteration    Energy") or lines.current.startswith("ITER       Energy"):
-                    lines.next()  # continuation header (SOSCF switch)
             else:
                 break
 
+    @section(lambda s: re.match(r"^\s*!\s+ITERATION\s+\d+\s+!", s) is not None)
+    def _verbose_iteration(self, line: str) -> None:
+        # Large-print SCF: one "! ITERATION n !" block per iteration instead of a table.
+        lines = self.lines
+        lines.next()
+        cur_cycle = self.calc.scf_cycles[-1] if self.calc.scf_cycles else None
+        if cur_cycle is None or not self.state["scf_open"] or cur_cycle.converged is not None:
+            if not (cur_cycle is not None and self.state["scf_open"] and cur_cycle.converged is None):
+                self.calc.scf_cycles.append(SCFCycle())
+                self.state["scf_open"] = True
+        cyc = self.calc.scf_cycles[-1]
+        it = SCFIteration(energy=float("nan"))
+        for _ in range(14):
+            if lines.done or lines.current.strip().startswith(("---", "***", "!")):
+                break
+            s = lines.current.strip()
+            vals = floats_in(s.split(":", 1)[1]) if ":" in s else []
+            if s.startswith("Total Energy") and vals:
+                it.energy = vals[0]
+            elif s.startswith("Energy Change") and vals:
+                it.delta_energy = vals[0]
+            elif s.startswith("MAX-DP") and vals:
+                it.max_density = vals[0]
+            elif s.startswith("RMS-DP") and vals:
+                it.rms_density = vals[0]
+            lines.next()
+        if it.energy == it.energy:  # not NaN
+            cyc.iterations.append(it)
+
+    def _cycle_for(self, *, flag: bool = False, energy: bool = False) -> SCFCycle:
+        """The SCF cycle a convergence flag / final energy belongs to: the last one if it still lacks it."""
+        cycles = self.calc.scf_cycles
+        if cycles:
+            last = cycles[-1]
+            if (flag and last.converged is None) or (energy and last.energy is None):
+                return last
+        cycles.append(SCFCycle())
+        return cycles[-1]
+
     @section("SCF CONVERGED AFTER")
     def _scf_converged(self, line: str) -> None:
-        if not self.calc.scf_cycles or not self.state["scf_open"]:
-            self.calc.scf_cycles.append(SCFCycle())
-        cyc = self.calc.scf_cycles[-1]
+        cyc = self._cycle_for(flag=True)
         cyc.converged = True
         m = re.search(r"AFTER\s+(\d+)\s+CYCLES", line)
         if m:
             cyc.n_iterations = int(m.group(1))
+        if cyc.energy is None and cyc.iterations:
+            # Optimisation cycles may skip the TOTAL SCF ENERGY block; FINAL SINGLE POINT ENERGY or the last
+            # iteration is then the best available SCF energy (overwritten if the block does appear).
+            cyc.energy = cyc.iterations[-1].energy
         self.lines.next()
 
     @section("SCF NOT CONVERGED AFTER")
     def _scf_not_converged(self, line: str) -> None:
-        if not self.calc.scf_cycles or not self.state["scf_open"]:
-            self.calc.scf_cycles.append(SCFCycle())
-        cyc = self.calc.scf_cycles[-1]
+        cyc = self._cycle_for(flag=True)
         cyc.converged = False
         m = re.search(r"AFTER\s+(\d+)\s+CYCLES", line)
         if m:
@@ -536,9 +574,11 @@ class OrcaParser(Parser):
     def _total_scf(self, line: str) -> None:
         lines = self.lines
         lines.next()
-        if not self.calc.scf_cycles or not self.state["scf_open"]:
-            self.calc.scf_cycles.append(SCFCycle())
-        cyc = self.calc.scf_cycles[-1]
+        # The block belongs to the SCF still open (its energy so far is only the last-iteration fallback).
+        if self.calc.scf_cycles and self.state["scf_open"]:
+            cyc = self.calc.scf_cycles[-1]
+        else:
+            cyc = self._cycle_for(energy=True)
         self.state["scf_open"] = False
         if lines.current.strip().startswith("----"):
             lines.next()  # the dashes under the header

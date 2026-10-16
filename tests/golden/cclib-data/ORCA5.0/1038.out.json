@@ -293,6 +293,22 @@
      "energy": -259.9076461511,
      "max_density": 0.00095009,
      "rms_density": 0.00969158
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.0010653376,
+     "diis_error": null,
+     "energy": -259.90871149,
+     "max_density": 0.001395,
+     "rms_density": 0.001395
+    },
+    {
+     "damping": null,
+     "delta_energy": -0.0011162867,
+     "diis_error": null,
+     "energy": -259.90982778,
+     "max_density": 0.000432,
+     "rms_density": 0.000291
     }
    ],
    "n_iterations": 9,

@@ -103,15 +103,21 @@ def compare(calc_d: dict, cc: dict) -> dict[str, str]:
     """Return {quantity: 'agree' | 'disagree' | 'chemout-only' | 'cclib-only' | 'neither'}."""
     res: dict[str, str] = {}
 
-    def verdict(name, mine, theirs, eq):
+    SMALL_EV = 1e-4 * 27.211386245988  # 1e-4 Hartree: SCF-convergence-level differences
+
+    def verdict(name, mine, theirs, eq, small=None):
         if mine is None and theirs is None:
             res[name] = "neither"
         elif theirs is None:
             res[name] = "chemout-only"
         elif mine is None:
             res[name] = "cclib-only"
+        elif eq(mine, theirs):
+            res[name] = "agree"
+        elif small is not None and small(mine, theirs):
+            res[name] = "disagree-small"
         else:
-            res[name] = "agree" if eq(mine, theirs) else "disagree"
+            res[name] = "disagree"
 
     scf = calc_d.get("scfenergies")
     verdict(
@@ -119,6 +125,7 @@ def compare(calc_d: dict, cc: dict) -> dict[str, str]:
         scf[-1] if scf is not None and len(scf) else None,
         (cc.get("scfenergies") or [None])[-1],
         lambda a, b: close(a, b, 1e-7, 1e-4),
+        small=lambda a, b: abs(float(a) - float(b)) < SMALL_EV,
     )
     ac = calc_d.get("atomcoords")
     verdict(
@@ -145,7 +152,13 @@ def compare(calc_d: dict, cc: dict) -> dict[str, str]:
         h = cc["homos"][0]
         if 0 <= h < len(cc["moenergies"][0]):
             their_homo = cc["moenergies"][0][h]
-    verdict("homo_energy", mine_homo, their_homo, lambda a, b: close(a, b, 1e-6, 1e-3))
+    verdict(
+        "homo_energy",
+        mine_homo,
+        their_homo,
+        lambda a, b: close(a, b, 1e-6, 1e-3),
+        small=lambda a, b: abs(float(a) - float(b)) < SMALL_EV,
+    )
     mine_mull = (
         calc_d["atomcharges"]["mulliken"].tolist()
         if calc_d.get("atomcharges") and "mulliken" in calc_d["atomcharges"]
@@ -219,14 +232,22 @@ def main() -> int:
         f"Files: {len(files)} ({chemout_unknown} skipped: not ORCA/Gaussian/xTB). cclib failed on **{cclib_fail}** files "
         f"(exception, timeout > {args.timeout}s, or `ccread` returned None); chemout returned a record for every file.",
         "",
-        "| quantity | agree | disagree | chemout only | cclib only | neither |",
-        "|---|---|---|---|---|---|",
+        "| quantity | agree | differ < 1e-4 Eh | disagree | chemout only | cclib only | neither |",
+        "|---|---|---|---|---|---|---|",
     ]
     for q, counts in per_q.items():
         lines.append(
-            f"| {q} | {counts.get('agree', 0)} | {counts.get('disagree', 0)} | {counts.get('chemout-only', 0)} | {counts.get('cclib-only', 0)} | {counts.get('neither', 0)} |"
+            f"| {q} | {counts.get('agree', 0)} | {counts.get('disagree-small', 0)} | {counts.get('disagree', 0)} | {counts.get('chemout-only', 0)} | {counts.get('cclib-only', 0)} | {counts.get('neither', 0)} |"
         )
-    lines += ["", "Counts are over the files where cclib produced a record.", "", "## cclib failures", ""]
+    lines += [
+        "",
+        "Counts are over the files where cclib produced a record. 'differ < 1e-4 Eh' marks energy differences",
+        "below 1e-4 Hartree, i.e. one implementation reporting the last SCF-iteration energy and the other the",
+        "converged total: not a parsing error on either side.",
+        "",
+        "## cclib failures",
+        "",
+    ]
     for p, calc, _cc, res in rows:
         if res is None:
             lines.append(

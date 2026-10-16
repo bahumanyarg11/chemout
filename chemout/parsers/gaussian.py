@@ -158,6 +158,18 @@ _DISPERSION_RE = re.compile(r"empiricaldispersion\s*=\s*\(?(\w+)", re.I)
 _SCRF_RE = re.compile(r"scrf\s*(?:=\s*\(?([^)\s]+(?:,[^)\s]+)*)\)?)?", re.I)
 
 
+def _same_structure(a: list[list[float]], b: list[list[float]], tol: float = 1e-4) -> bool:
+    """True when two geometries have the same interatomic distances (orientation-independent)."""
+    if not a or not b or len(a) != len(b):
+        return False
+    import numpy as np
+
+    xa, xb = np.asarray(a), np.asarray(b)
+    da = np.linalg.norm(xa[:, None, :] - xa[None, :, :], axis=-1)
+    db = np.linalg.norm(xb[:, None, :] - xb[None, :, :], axis=-1)
+    return bool(np.abs(da - db).max() < tol)
+
+
 def _seconds(line: str) -> float | None:
     m = _TIME_RE.search(line)
     if not m:
@@ -361,7 +373,7 @@ class GaussianParser(Parser):
         if zs and (not self.calc.molecule.atomic_numbers or kind == "standard"):
             # Dummy atoms have Z = -1 / 0; drop them from the molecule but keep index alignment.
             self.calc.molecule.atomic_numbers = zs
-            self.calc.molecule.symbols = [z_to_symbol(z) if z > 0 else "X" for z in zs]
+            self.calc.molecule.symbols = [z_to_symbol(z) if z > 0 else ("Bq" if z == 0 else "X") for z in zs]
         if kind == "standard":
             self.state["std_geoms"].append(geo)
         elif kind == "input":
@@ -473,7 +485,10 @@ class GaussianParser(Parser):
         orb = Orbitals(energies=energies, occupations=occs, homo=homo)
         orb.homo_energy = [e[h] for e, h in zip(energies, homo) if 0 <= h < len(e)]
         orb.lumo_energy = [e[h + 1] for e, h in zip(energies, homo) if 0 <= h + 1 < len(e)]
-        self.calc.orbitals = orb
+        # Guess=Fragment prints each fragment's eigenvalues after the molecule's: keep the largest block
+        # (ties -> latest, which is what a frequency job after an optimisation wants).
+        if self.calc.orbitals is None or len(a) >= len(self.calc.orbitals.energies[0]):
+            self.calc.orbitals = orb
 
     # ---------------------------------------------------------------- charges
     def _read_charge_table(self, n_values: int) -> tuple[list[float], list[float] | None]:
@@ -568,6 +583,14 @@ class GaussianParser(Parser):
     def _set_pop(self, method: str, charges: list[float], spins: list[float] | None) -> None:
         if not charges:
             return
+        # Guess=Fragment and ONIOM print further charge tables for sub-systems, with zeros for atoms outside
+        # the fragment; keep the table with the most non-zero entries (ties -> the latest one).
+        existing = next((p for p in self.calc.populations if p.method == method), None)
+        if existing is not None:
+            nz_new = sum(1 for c in charges if abs(c) > 1e-6)
+            nz_old = sum(1 for c in existing.charges if abs(c) > 1e-6)
+            if nz_new < nz_old:
+                return
         self.calc.populations = [p for p in self.calc.populations if p.method != method]
         self.calc.populations.append(PopulationAnalysis(method=method, charges=charges, spins=spins))
 
@@ -695,9 +718,16 @@ class GaussianParser(Parser):
             syms.extend(labels if len(labels) == n_here else ["?"] * n_here)
             v.frequencies.extend(freqs)
             lines.next()
-            while not lines.done and "--" in lines.current and "Atom" not in lines.current:
+            # property rows: "Red. masses --", "IR Inten    --", "IRC Coupling -" (one dash), ...
+            while (
+                not lines.done
+                and re.match(r"^\s*[A-Za-z][A-Za-z. ()]{2,20}\s-{1,3}\s", lines.current)
+                and "Atom" not in lines.current
+            ):
                 row = lines.next()
-                tag, _, rest = row.partition("--")
+                tag, _, rest = (
+                    re.split(r"(\s-{1,3}\s)", row, maxsplit=1) if re.search(r"\s-{1,3}\s", row) else (row, "", "")
+                )
                 vals = floats_in(rest)
                 tag = tag.strip()
                 if tag.startswith("Red. masses"):
@@ -910,14 +940,17 @@ class GaussianParser(Parser):
             else:
                 for g, e in zip(geoms, energies):
                     g.energy = e
-        # A frequency (or any follow-up) step re-prints the converged geometry: drop trailing duplicates.
-        while len(geoms) >= 2 and geoms[-1].coordinates == geoms[-2].coordinates:
+        # A frequency (or any follow-up) step re-prints the converged geometry, usually re-oriented: drop a
+        # trailing geometry whose interatomic distances match the previous one.
+        while len(geoms) >= 2 and _same_structure(geoms[-1].coordinates, geoms[-2].coordinates):
             dup = geoms.pop()
             if geoms[-1].energy is None:
                 geoms[-1].energy = dup.energy
         c.geometries = geoms
-        if c.molecule.atomic_numbers and any(z <= 0 for z in c.molecule.atomic_numbers):
-            keep = [i for i, z in enumerate(c.molecule.atomic_numbers) if z > 0]
+        # Dummy atoms (X, Z = -1) are geometry scaffolding and are removed; ghost atoms (Bq, Z = 0) carry basis
+        # functions and appear in population tables, so they stay.
+        if c.molecule.atomic_numbers and any(z < 0 for z in c.molecule.atomic_numbers):
+            keep = [i for i, z in enumerate(c.molecule.atomic_numbers) if z >= 0]
             c.molecule.atomic_numbers = [c.molecule.atomic_numbers[i] for i in keep]
             c.molecule.symbols = [c.molecule.symbols[i] for i in keep]
             for g in c.geometries:

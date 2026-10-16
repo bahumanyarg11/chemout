@@ -296,6 +296,54 @@
      "energy": -76.0656583908,
      "max_density": 0.00014029,
      "rms_density": 0.00182838
+    },
+    {
+     "damping": null,
+     "delta_energy": 0.0062916064,
+     "diis_error": null,
+     "energy": -76.05936678,
+     "max_density": 0.001138,
+     "rms_density": 0.001138
+    },
+    {
+     "damping": null,
+     "delta_energy": 0.0019365947,
+     "diis_error": null,
+     "energy": -76.05743019,
+     "max_density": 0.000534,
+     "rms_density": 0.000375
+    },
+    {
+     "damping": null,
+     "delta_energy": -1.2315e-06,
+     "diis_error": null,
+     "energy": -76.05743142,
+     "max_density": 0.000402,
+     "rms_density": 0.000222
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.877e-07,
+     "diis_error": null,
+     "energy": -76.05743171,
+     "max_density": 5.6e-05,
+     "rms_density": 6.8e-05
+    },
+    {
+     "damping": null,
+     "delta_energy": -2.39e-08,
+     "diis_error": null,
+     "energy": -76.05743173,
+     "max_density": 7e-06,
+     "rms_density": 8e-06
+    },
+    {
+     "damping": null,
+     "delta_energy": -5e-10,
+     "diis_error": null,
+     "energy": -76.05743173,
+     "max_density": 4e-06,
+     "rms_density": 3e-06
     }
    ],
    "n_iterations": 12,

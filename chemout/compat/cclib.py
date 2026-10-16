@@ -33,14 +33,28 @@ def to_ccdata_dict(calc: Calculation) -> dict[str, Any]:
         d["nbasis"] = mol.n_basis_functions
     if calc.geometries:
         d["atomcoords"] = np.asarray([g.coordinates for g in calc.geometries], dtype=float)
-    # cclib's scfenergies are one total energy per geometry (ORCA: FINAL SINGLE POINT ENERGY, which includes
-    # the dispersion correction; Gaussian: SCF Done). Prefer the per-geometry energies when they exist.
-    geo = [g.energy for g in calc.geometries if g.energy is not None]
-    scf = [c.energy for c in calc.scf_cycles if c.energy is not None]
-    if geo and len(geo) >= len(scf):
-        d["scfenergies"] = np.asarray(geo) * HARTREE_TO_EV
-    elif scf:
-        d["scfenergies"] = np.asarray(scf) * HARTREE_TO_EV
+    # cclib's scfenergies: one SCF-level energy per SCF (never a post-HF total).
+    #  - Gaussian: "SCF Done" energies.
+    #  - ORCA: the SCF block's "Total Energy" plus the dispersion correction. ORCA < 5 prints the dispersion
+    #    separately and excludes it from "Total Energy"; ORCA >= 5 already includes it, so it is added only for
+    #    the older versions (cclib adds it unconditionally, see docs/CONFORMANCE_*.md).
+    #  - xTB: the "* total energy" of every optimisation step (the SCC energy alone is not a total energy).
+    prog = calc.program.name.value
+    if prog == "xtb":
+        steps = [s.energy for s in (calc.optimization.steps if calc.optimization else []) if s.energy is not None]
+        if calc.energies.total is not None:
+            steps = steps[:-1] + [calc.energies.total] if steps else [calc.energies.total]
+        if steps:
+            d["scfenergies"] = np.asarray(steps) * HARTREE_TO_EV
+    else:
+        old_orca = prog == "orca" and (calc.program.version_tuple or (99,))[0] < 5
+        scf = [
+            c.energy + (c.dispersion if old_orca and c.dispersion is not None else 0.0)
+            for c in calc.scf_cycles
+            if c.energy is not None
+        ]
+        if scf:
+            d["scfenergies"] = np.asarray(scf) * HARTREE_TO_EV
     if calc.energies.mp2 is not None:
         d["mpenergies"] = np.asarray([[calc.energies.mp2 * HARTREE_TO_EV]])
     cc = calc.energies.ccsd_t if calc.energies.ccsd_t is not None else calc.energies.ccsd
@@ -49,8 +63,25 @@ def to_ccdata_dict(calc: Calculation) -> dict[str, Any]:
     if calc.energies.dispersion is not None:
         d["dispersionenergies"] = np.asarray([calc.energies.dispersion * HARTREE_TO_EV])
     if calc.orbitals and calc.orbitals.energies:
-        d["moenergies"] = [np.asarray(e) * HARTREE_TO_EV for e in calc.orbitals.energies]
-        d["homos"] = np.asarray(calc.orbitals.homo, dtype=int)
+        orb = calc.orbitals
+        if orb.indices:
+            # Only a window of orbitals was printed (xTB): expand to the full orbital count with NaN gaps so
+            # that moenergies[homos] is still the HOMO.
+            n_mo = max(mol.n_basis_functions or 0, max(max(ix) for ix in orb.indices))
+            full = []
+            homos = []
+            for spin, (e, ix) in enumerate(zip(orb.energies, orb.indices)):
+                arr = np.full(n_mo, np.nan)
+                for val, i in zip(e, ix):
+                    arr[i - 1] = val * HARTREE_TO_EV
+                full.append(arr)
+                h = orb.homo[spin] if spin < len(orb.homo) else -1
+                homos.append(ix[h] - 1 if 0 <= h < len(ix) else -1)
+            d["moenergies"] = full
+            d["homos"] = np.asarray(homos, dtype=int)
+        else:
+            d["moenergies"] = [np.asarray(e) * HARTREE_TO_EV for e in orb.energies]
+            d["homos"] = np.asarray(orb.homo, dtype=int)
         if calc.orbitals.symmetries:
             d["mosyms"] = calc.orbitals.symmetries
     if calc.populations:

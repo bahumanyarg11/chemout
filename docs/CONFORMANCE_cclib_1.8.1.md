@@ -4,15 +4,15 @@ Files: 247 (1 skipped: not ORCA/Gaussian/xTB). cclib failed on **119** files (ex
 
 | quantity | agree | disagree | chemout only | cclib only | neither |
 |---|---|---|---|---|---|
-| scf_energy | 96 | 16 | 2 | 1 | 12 |
-| n_geometries | 92 | 26 | 2 | 4 | 3 |
+| scf_energy | 83 | 30 | 7 | 0 | 7 |
+| n_geometries | 105 | 13 | 2 | 4 | 3 |
 | final_coordinates | 113 | 5 | 2 | 4 | 3 |
 | charge | 124 | 0 | 1 | 2 | 0 |
 | multiplicity | 113 | 0 | 12 | 0 | 2 |
 | homo_energy | 98 | 10 | 10 | 0 | 9 |
 | mulliken_charges | 114 | 3 | 3 | 1 | 6 |
 | vibfreqs | 20 | 3 | 0 | 0 | 104 |
-| etenergies | 4 | 6 | 0 | 2 | 115 |
+| etenergies | 10 | 0 | 0 | 2 | 115 |
 | success_flag | 125 | 2 | 0 | 0 | 0 |
 
 Counts are over the files where cclib produced a record.
@@ -141,46 +141,43 @@ Counts are over the files where cclib produced a record.
 
 ## Disagreements
 
-- `ADBNA_Me_Mes_MesCz.log` (orca 5.0.3): etenergies
-- `Benzene_opt_etsyms.log` (orca 5.0.3): etenergies
-- `dvb_soc.log` (orca 5.0.3): etenergies
+- `ADBNA_Me_Mes_MesCz.log` (orca 5.0.3): scf_energy
+- `Benzene_opt_etsyms.log` (orca 5.0.3): scf_energy
+- `dvb_soc.log` (orca 5.0.3): scf_energy
+- `steom_orbs.log` (orca 5.0.3): scf_energy
 - `947.out` (orca 4.2.1): scf_energy
+- `MP2-gradient.out` (orca 4.2.0): scf_energy
 - `cope.out` (orca 4.2.1): scf_energy
-- `dvb_dispersion_bp86_d3zero.out` (orca 4.2.0): scf_energy
-- `dvb_rocis.out` (orca 4.2.0): etenergies
-- `dvb_td.out` (orca 4.2.0): etenergies
-- `ligando-30-SRM1-S_ZINDO.out` (orca 4.2.1): etenergies
+- `dvb_rocis.out` (orca 4.2.0): scf_energy
+- `dvb_td.out` (orca 4.2.0): scf_energy
+- `ligando-30-SRM1-S_ZINDO.out` (orca 4.2.1): scf_energy
+- `long-input.out` (orca 4.2.0): scf_energy
+- `longer-input.out` (orca 4.2.0): scf_energy
+- `water_ccsd.out` (orca 4.2.0): scf_energy
+- `water_ccsd_t.out` (orca 4.2.0): scf_energy
+- `water_dlpno_ccsd.out` (orca 4.2.0): scf_energy
+- `water_mp2.out` (orca 4.2.0): scf_energy
+- `water_mp3.out` (orca 4.2.0): scf_energy
 - `Benzene_anion.log` (gaussian 16 RevC.01): n_geometries
 - `dol-1-pen-5-pen-trip.out` (gaussian 16 RevC.01): n_geometries
 - `issue1153.log` (gaussian 16 RevC.01): n_geometries
 - `issue962.log` (gaussian 16 RevA.03): scf_energy, n_geometries, final_coordinates
 - `water.log` (gaussian 16 RevC.01): n_geometries
-- `water_cation_nbo_opt.out` (gaussian 16 RevA.03): n_geometries
-- `water_neutral_nbo_opt.out` (gaussian 16 RevA.03): n_geometries
 - `water_neutral_nbo_opt_freq.out` (gaussian 16 RevA.03): n_geometries
 - `1080.out` (gaussian 09 RevC.01): n_geometries
 - `1504.log` (gaussian 09 RevA.02): n_geometries
 - `25DMF_HRANH.log` (gaussian 09 RevB.01): n_geometries
-- `2D-PES-all-converged.log` (gaussian 09 RevD.01): n_geometries
-- `2D-PES-one-unconverged.log` (gaussian 09 RevD.01): n_geometries
-- `534.out` (gaussian 09 RevA.02): n_geometries
 - `BH3CO_fragment_guess.log` (gaussian 09 RevD.01): success_flag
 - `BH3CO_fragment_guess.pop_minimal.log` (gaussian 09 RevD.01): homo_energy, mulliken_charges, success_flag
 - `BSL_opt_freq_DFT.out` (gaussian 09 RevD.01): n_geometries
-- `OPT_oniom.log` (gaussian 09 RevD.01): scf_energy, n_geometries, mulliken_charges
+- `OPT_oniom.log` (gaussian 09 RevD.01): scf_energy, mulliken_charges
 - `ansaBPFP2_acetylene_ircf_LQA.out` (gaussian 09 RevE.01): n_geometries, final_coordinates
-- `benzene_excited_states_optimization_issue889.log` (gaussian 09 RevD.01): n_geometries
-- `dvb_gopt_revA.02.out` (gaussian 09 RevA.02): n_geometries
-- `dvb_gopt_unconverged.log` (gaussian 09 RevD.01): n_geometries
-- `dvb_scan_revA.02.log` (gaussian 09 RevA.02): n_geometries
-- `encaps1.log` (gaussian 09 RevC.01): scf_energy, n_geometries
+- `encaps1.log` (gaussian 09 RevC.01): scf_energy
 - `irc_point.log` (gaussian 09 RevD.01): vibfreqs
 - `issue1150.log` (gaussian 09 RevE.01): final_coordinates
 - `issue_460.log` (gaussian 09 RevD.01): n_geometries, final_coordinates
-- `jos.teunissen.out` (gaussian 09 RevD.01): n_geometries
 - `oniom_IR_intensity.log` (gaussian 09 RevC.01): scf_energy, mulliken_charges
-- `relaxed_PES_testCO2.log` (gaussian 09 RevD.01): n_geometries
-- `relaxed_PES_testH2.log` (gaussian 09 RevD.01): n_geometries
+- `test0200.log` (gaussian 09 RevD.01): n_geometries
 - `1448.out` (xtb 6.5.1): scf_energy, final_coordinates, homo_energy
 - `acetate_alpb.out` (xtb 6.7.1): scf_energy, homo_energy
 - `ethanol_gfn1_opt.out` (xtb 6.7.1): scf_energy, homo_energy
@@ -194,11 +191,11 @@ Counts are over the files where cclib produced a record.
 ## Only chemout
 
 - `1618.out`: scf_energy, n_geometries, final_coordinates, multiplicity, homo_energy, mulliken_charges
-- `casscf_beryllium_atom_nosym.out`: homo_energy
-- `casscf_beryllium_atom_sym.out`: homo_energy
-- `casscf.out`: homo_energy
-- `casscf_beryllium_atom_nosym.out`: homo_energy
-- `casscf_beryllium_atom_sym.out`: homo_energy
+- `casscf_beryllium_atom_nosym.out`: scf_energy, homo_energy
+- `casscf_beryllium_atom_sym.out`: scf_energy, homo_energy
+- `casscf.out`: scf_energy, homo_energy
+- `casscf_beryllium_atom_nosym.out`: scf_energy, homo_energy
+- `casscf_beryllium_atom_sym.out`: scf_energy, homo_energy
 - `OPT_oniom.log`: homo_energy
 - `encaps1.log`: homo_energy, mulliken_charges
 - `oniom_IR_intensity.log`: homo_energy
@@ -221,7 +218,7 @@ Counts are over the files where cclib produced a record.
 - `1448.out`: charge
 - `acetate_alpb.out`: n_geometries, final_coordinates
 - `ethanol_gfn1_opt.out`: mulliken_charges
-- `ethanol_gfnff_opt.out`: scf_energy, charge
+- `ethanol_gfnff_opt.out`: charge
 - `ethanol_grad.out`: n_geometries, final_coordinates
 - `water_hess_verbose.out`: n_geometries, final_coordinates
 - `water_sp.out`: n_geometries, final_coordinates

@@ -294,7 +294,7 @@
   {
    "converged": true,
    "dispersion": null,
-   "energy": null,
+   "energy": -39.4542476139,
    "exchange_correlation": null,
    "iterations": [
     {
@@ -456,7 +456,21 @@
      "energy": -39.4542476139,
      "max_density": 0.00103722,
      "rms_density": 0.00479737
-    },
+    }
+   ],
+   "n_iterations": 45,
+   "nuclear_repulsion": null,
+   "one_electron": null,
+   "spin_squared": 0.750381,
+   "spin_squared_ideal": 0.75,
+   "two_electron": null
+  },
+  {
+   "converged": true,
+   "dispersion": null,
+   "energy": -39.4976964414,
+   "exchange_correlation": null,
+   "iterations": [
     {
      "damping": null,
      "delta_energy": 0.0,
