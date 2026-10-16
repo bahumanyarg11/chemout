@@ -996,7 +996,10 @@ class OrcaParser(Parser):
             int_col = header.index("T**2")
         else:
             return
-        if lines.current.strip().startswith("---"):
+        # ORCA >= 5 adds a units line ("cm**-1  L/(mol*cm) km/mol  a.u.") before the dashes.
+        for _ in range(3):
+            if re.match(r"^\s*\d+:\s", lines.current):
+                break
             lines.next()
         ints: dict[int, float] = {}
         while not lines.done:
