@@ -3,7 +3,7 @@
 **One typed record for ORCA 6, Gaussian 16 and xTB output files.**
 
 ```bash
-pip install chemout            # numpy + pydantic only
+pip install git+https://github.com/bahumanyarg11/chemout   # numpy + pydantic only (not on PyPI yet)
 chemout info run.out           # what happened in this file?
 chemout parse run.out -o run.json
 chemout batch ./calcs --csv summary.csv -o all.h5   # every file under a directory, in parallel
